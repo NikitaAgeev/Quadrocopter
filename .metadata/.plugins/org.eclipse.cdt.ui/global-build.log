@@ -1,0 +1,48 @@
+22:41:33 **** Incremental Build of configuration Release for project Qadracopter ****
+make -j24 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -Os -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:102:20: warning: pointer targets in passing argument 1 of 'CDC_Transmit_FS' differ in signedness [-Wpointer-sign]
+  102 |    CDC_Transmit_FS("nigga\n\r", 8);
+      |                    ^~~~~~~~~~~
+      |                    |
+      |                    char *
+In file included from ../Core/Src/main.c:27:
+../USB_DEVICE/App/usbd_cdc_if.h:108:34: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+  108 | uint8_t CDC_Transmit_FS(uint8_t* Buf, uint16_t Len);
+      |                         ~~~~~~~~~^~~
+arm-none-eabi-g++ -o "Qadracopter.elf" @"objects.list"   -mcpu=cortex-m3 -T"/home/nikita/Documents/Quadrocopter/Qadracopter/STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Qadracopter.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: Qadracopter.elf
+ 
+arm-none-eabi-size   Qadracopter.elf 
+arm-none-eabi-objdump -h -S  Qadracopter.elf  > "Qadracopter.list"
+   text	   data	    bss	    dec	    hex	filename
+  12480	    388	   6132	  19000	   4a38	Qadracopter.elf
+Finished building: default.size.stdout
+ 
+Finished building: Qadracopter.list
+ 
+22:41:51 **** Incremental Build of configuration Debug for project Qadracopter ****
+make -j24 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../USB_DEVICE/App -I../USB_DEVICE/Target -I../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:102:20: warning: pointer targets in passing argument 1 of 'CDC_Transmit_FS' differ in signedness [-Wpointer-sign]
+  102 |    CDC_Transmit_FS("nigga\n\r", 8);
+      |                    ^~~~~~~~~~~
+      |                    |
+      |                    char *
+In file included from ../Core/Src/main.c:27:
+../USB_DEVICE/App/usbd_cdc_if.h:108:34: note: expected 'uint8_t *' {aka 'unsigned char *'} but argument is of type 'char *'
+  108 | uint8_t CDC_Transmit_FS(uint8_t* Buf, uint16_t Len);
+      |                         ~~~~~~~~~^~~
+arm-none-eabi-g++ -o "Qadracopter.elf" @"objects.list"   -mcpu=cortex-m3 -T"/home/nikita/Documents/Quadrocopter/Qadracopter/STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Qadracopter.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: Qadracopter.elf
+ 
+arm-none-eabi-size   Qadracopter.elf 
+arm-none-eabi-objdump -h -S  Qadracopter.elf  > "Qadracopter.list"
+   text	   data	    bss	    dec	    hex	filename
+  30196	    388	   6132	  36716	   8f6c	Qadracopter.elf
+Finished building: default.size.stdout
+ 
+Finished building: Qadracopter.list
+ 
