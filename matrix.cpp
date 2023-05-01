@@ -9,7 +9,7 @@ namespace vec_math
 
     class matrix
     {
-    private:
+    protected:
         size_t width = 0;
         size_t hight = 0;
         double* arr = nullptr;
@@ -46,19 +46,21 @@ namespace vec_math
         matrix& operator/= (const double& a);
 
 
-        friend matrix operator* (const matrix& _matrix, const double& a);
+        friend const matrix operator* (const matrix& _matrix, const double& a);
 
-        friend matrix operator* (const double& a, const matrix& _matrix);
+        friend const matrix operator* (const double& a, const matrix& _matrix);
 
-        friend matrix operator/ (const matrix& _matrix, const double& a);
+        friend const matrix operator/ (const matrix& _matrix, const double& a);
 
-        friend matrix operator/ (const matrix& _matrix_a, const matrix& _matrix_b);
+        friend const matrix operator/ (const matrix& _matrix_a, const matrix& _matrix_b);
 
-        friend matrix operator/ (const double& a, const matrix& _matrix);
+        friend const matrix operator/ (const double& a, const matrix& _matrix);
 
-        friend matrix operator+ (const matrix& _matrix_a, const matrix& _matrix_b);
+        friend const matrix operator+ (const matrix& _matrix_a, const matrix& _matrix_b);
 
-        friend matrix operator- (const matrix& _matrix_a, const matrix& _matrix_b);
+        friend const matrix operator- (const matrix& _matrix_a, const matrix& _matrix_b);
+
+        friend const matrix mull (const matrix& _matrix_a, const matrix& _matrix_b);
  
 
         size_t get_w() const;
@@ -68,13 +70,13 @@ namespace vec_math
 
         static matrix get_E (size_t width, size_t hight);
 
-        static double det (const matrix& _matrix);
+        friend double det (const matrix& _matrix);
 
-        static double minor (const matrix& _matrix, size_t x_m, size_t y_m);
+        friend double minor (const matrix& _matrix, size_t x_m, size_t y_m);
 
-        static matrix inverse (const matrix& _matrix);
+        friend matrix inverse (const matrix& _matrix);
 
-        static matrix transpose (const matrix& _matrix);
+        friend matrix transpose (const matrix& _matrix);
 
 
         ~matrix()
@@ -86,65 +88,67 @@ namespace vec_math
 
         void put_val (size_t x, size_t y, double num);
 
-        friend std::ostream& operator<< (std::ostream& os, matrix& _matrix);
+        double& operator() (size_t x, size_t y);
+
+        friend std::ostream& operator<< (std::ostream& os, const matrix& _matrix);
     };
 
 
-        size_t matrix::get_w() const 
-        {
-            return width;
-        }
-        
-        size_t matrix::get_h() const
-        {
-            return hight;
-        }
+    size_t matrix::get_w() const 
+    {
+        return width;
+    }
+    
+    size_t matrix::get_h() const
+    {
+        return hight;
+    }
 
 
-        double matrix::get_val (size_t x, size_t y) const 
-        {
-            assert(x < width);
-            assert(y < hight);
-            return arr[y*width + x]; 
-        }
+    double matrix::get_val (size_t x, size_t y) const 
+    {
+        assert(x < width);
+        assert(y < hight);
+        return arr[y*width + x]; 
+    }
 
-        void matrix::put_val (size_t x, size_t y, double num)
-        {
-            assert(x < width);
-            assert(y < hight);
-            arr[y*width + x] = num;
-        }
+    void matrix::put_val (size_t x, size_t y, double num)
+    {
+        assert(x < width);
+        assert(y < hight);
+        arr[y*width + x] = num;
+    }
 
 
     matrix& matrix::operator*= (const matrix& _matrix)
+    {
+        assert(width == _matrix.hight);
+        
+        size_t new_width = _matrix.width;
+        size_t new_hight = hight;
+
+        double* new_arr = new double[new_width*new_hight];
+
+        for(size_t h = 0; h < new_hight; h++)
         {
-            assert(width == _matrix.hight);
-            
-            size_t new_width = _matrix.width;
-            size_t new_hight = hight;
-
-            double* new_arr = new double[new_width*new_hight];
-
-            for(size_t h = 0; h < new_hight; h++)
+            for(size_t w = 0; w < new_width; w++)
             {
-                for(size_t w = 0; w < new_width; w++)
-                {
-                    double mull = 0;
-                    for(size_t itter = 0; itter < width; itter++)
-                        mull += arr[h*width + itter] * _matrix.arr[itter*_matrix.width + w];
-                    
-                    new_arr[h*new_width + w] = mull;
-                }
+                double mull = 0;
+                for(size_t itter = 0; itter < width; itter++)
+                    mull += arr[h*width + itter] * _matrix.arr[itter*_matrix.width + w];
+                
+                new_arr[h*new_width + w] = mull;
             }
-
-            width = new_width;
-            hight = new_hight;
-
-            delete arr;
-            arr = new_arr;
-
-            return *this;
         }
+
+        width = new_width;
+        hight = new_hight;
+
+        delete arr;
+        arr = new_arr;
+
+        return *this;
+    }
 
     matrix& matrix::operator*= (const double& a)
     {
@@ -190,53 +194,60 @@ namespace vec_math
     }
 
 
-    matrix operator* (const matrix& _matrix, const double& a)
+    const matrix operator* (const matrix& _matrix, const double& a)
     {
         matrix ans = _matrix;
 
         return ans *= a;
     }
 
-    matrix operator* (const double& a, const matrix& _matrix)
+    const matrix operator* (const double& a, const matrix& _matrix)
     {
         matrix ans = _matrix;
 
         return ans *= a;
     }
 
-    matrix operator/ (const matrix& _matrix, const double& a)
+    const matrix operator/ (const matrix& _matrix, const double& a)
     {
         matrix ans = _matrix;
 
         return ans /= a;
     }
 
-    matrix operator/ (const matrix& _matrix_a, const matrix& _matrix_b)
+    const matrix operator/ (const matrix& _matrix_a, const matrix& _matrix_b)
     {
         matrix ans = _matrix_a;
 
         return ans *= _matrix_b;
     }
 
-    matrix operator/ (const double& a, const matrix& _matrix)
+    const matrix operator/ (const double& a, const matrix& _matrix)
     {
-        matrix ans = matrix::inverse(_matrix);
+        matrix ans = inverse(_matrix);
 
         return ans *= a;
     }
 
-    matrix operator+ (const matrix& _matrix_a, const matrix& _matrix_b)
+    const matrix operator+ (const matrix& _matrix_a, const matrix& _matrix_b)
     {
         matrix ans = _matrix_a;
 
         return ans += _matrix_b;
     }
 
-    matrix operator- (const matrix& _matrix_a, const matrix& _matrix_b)
+    const matrix operator- (const matrix& _matrix_a, const matrix& _matrix_b)
     {
         matrix ans = _matrix_a;
 
         return ans -= _matrix_b;
+    }
+
+    const matrix mull (const matrix& _matrix_a, const matrix& _matrix_b)
+    {
+        matrix ans = _matrix_a;
+        
+        return ans *= _matrix_b;
     }
 
 
@@ -254,7 +265,7 @@ namespace vec_math
         return ans;
     }
 
-    double matrix::det (const matrix& _matrix)
+    double det (const matrix& _matrix)
     {
         assert(_matrix.get_w() == _matrix.get_h());
         matrix buffer = _matrix;
@@ -283,7 +294,7 @@ namespace vec_math
 
     }
 
-    double matrix::minor (const matrix& _matrix, size_t x_m, size_t y_m)
+    double minor (const matrix& _matrix, size_t x_m, size_t y_m)
     {
         assert(_matrix.get_w() == _matrix.get_h());
         matrix buffer = _matrix;
@@ -326,7 +337,7 @@ namespace vec_math
 
     }
 
-    matrix matrix::inverse (const matrix& _matrix)
+    matrix inverse (const matrix& _matrix)
     {
         assert(_matrix.get_w() == _matrix.get_h());
 
@@ -376,7 +387,7 @@ namespace vec_math
 
     }
 
-    matrix matrix::transpose (const matrix& _matrix)
+    matrix transpose (const matrix& _matrix)
     {
         matrix ans(_matrix.get_h(), _matrix.get_w());
 
@@ -392,6 +403,15 @@ namespace vec_math
     }
 
 
+    double& matrix::operator() (size_t x, size_t y)
+    {
+        assert(x < width);
+        assert(y < hight);
+        
+        return *(arr + x + y*width);
+    }
+
+
     class string: public matrix
     {
         public:
@@ -401,22 +421,56 @@ namespace vec_math
         string(const string& _string) = default;
         string(string&& _string) = default;
         ~string() = default;
+
+        string(const matrix& _matrix)
+        {
+            assert(_matrix.get_h() == 1);
+
+            width = _matrix.get_w();
+            hight = 1;
+            arr = new double[_matrix.get_w()];
+
+            for(size_t itter = 0; itter < width; itter++)
+            {
+                arr[itter] = _matrix.get_val(itter, 1);
+            }
+        }
+
+        //static column transpose (const string& _string);
         
     };
+
 
     class column: public matrix
     {
         public:
         
-        column(size_t len): matrix(len, 1) {};
+        column(size_t len): matrix(1, len) {};
         
         column(const column& _column) = default;
         column(column&& _column) = default;
         ~column() = default;
-        
+
+        column(const matrix& _matrix)
+        {
+            assert(_matrix.get_w() == 1);
+
+            hight = _matrix.get_h();
+            width = 1;
+            arr = new double[_matrix.get_h()];
+
+            for(size_t itter = 0; itter < hight; itter++)
+            {
+                arr[itter] = _matrix.get_val(1, itter);
+            }
+        }
+
+        //static string transpose (const column& _string);
+
     };
 
-    std::ostream& operator<< (std::ostream& os, matrix& _matrix)
+
+    std::ostream& operator<< (std::ostream& os, const matrix& _matrix)
     {
         os << "\n";
         //os << std::fixed;
@@ -434,6 +488,162 @@ namespace vec_math
         return os;
     }
 
+
+    class vector
+    {
+        protected:
+            column vec;
+
+        public: 
+            vector(): vec(3) {};
+            vector(double x, double y, double z): vec(3) 
+            {
+                vec.put_val(0, 0, x);
+                vec.put_val(0, 1, y);
+                vec.put_val(0, 2, z);
+            }
+            vector(const vector& _vector): vec(_vector.vec) {};
+            vector(vector&& _vector) = default;
+
+            double& x ();
+            double& y ();
+            double& z ();
+
+            const double get_x() const;
+            const double get_y() const;
+            const double get_z() const;
+            
+            vector& operator*= (const double& a);
+
+            vector& operator+= (const vector& _vector);
+
+            vector& operator-= (const vector& _vector);
+
+            vector& operator/= (const double& a);
+
+
+            friend double operator* (const vector& _vector_a, const vector& _vector_b);
+
+            friend vector operator* (const vector& _vector, const double& a);
+
+            friend vector operator* (const double& a, const vector& _vector);
+
+            friend vector operator/ (const vector& _vector, double& a);
+
+            friend vector operator+ (const vector& _vector_a, const vector& _vector_b);
+
+            friend vector operator- (const vector& _vector_a, const vector& _vector_b);
+
+            friend vector vmull (const vector& _vector_a, const vector& _vector_b);
+    };
+
+    double& vector::x()
+    {
+        return vec(0, 0);
+    }
+
+    double& vector::y()
+    {
+        return vec(0, 1);
+    }
+
+    double& vector::z()
+    {
+        return vec(0, 2);
+    }
+
+    
+    const double vector::get_x() const 
+    {
+        return vec.get_val(0, 0);
+    }
+
+    const double vector::get_y() const 
+    {
+        return vec.get_val(0, 1);
+    }
+
+    const double vector::get_z() const
+    {
+        return vec.get_val(0, 2);
+    }
+
+
+    vector& vector::operator*= (const double& a)
+    {
+        vec*= a;
+        return *this;
+    }
+
+    vector& vector::operator+= (const vector& _vector)
+    {
+        vec += _vector.vec;
+        return *this;
+    } 
+
+    vector& vector::operator-= (const vector& _vector)
+    {
+        vec -= _vector.vec;
+        return *this;
+    }
+
+    vector& vector::operator/= (const double& a)
+    {
+        vec /= a;
+        return *this;
+    }
+
+    
+    double operator* (const vector& _vector_a, const vector& _vector_b)
+    {
+        return (mull(transpose(_vector_a.vec), _vector_b.vec)).get_val(0, 0);
+    }
+
+    vector operator* (const vector& _vector, const double& a)
+    {
+        vector ans = _vector;
+
+        return ans *= a;
+    }
+
+    vector operator* (const double& a, const vector& _vector)
+    {
+        vector ans = _vector;
+
+        return ans *= a;
+    }
+
+    vector operator/ (const vector& _vector, double& a)
+    {
+        vector ans = _vector;
+
+        return ans /= a;
+    }
+
+    vector operator+ (const vector& _vector_a, const vector& _vector_b)
+    {
+        vector ans = _vector_a;
+
+        return ans += _vector_b;
+    }
+
+    vector operator- (const vector& _vector_a, const vector& _vector_b)
+    {
+        vector ans = _vector_a;
+
+        return ans -= _vector_b;
+    }
+
+    vector vmull (const vector& _vector_a, const vector& _vector_b)
+    {
+        vector ans(_vector_a.get_y()*_vector_b.get_z() - _vector_a.get_z()*_vector_b.get_y(),
+                   _vector_a.get_z()*_vector_b.get_x() - _vector_a.get_x()*_vector_b.get_z(),
+                   _vector_a.get_x()*_vector_b.get_y() - _vector_a.get_y()*_vector_b.get_x());
+
+        return ans;
+    }
+
+
 };
 
 
@@ -447,13 +657,15 @@ int main()
 
     std::cout << m << std::endl;
 
-    vec_math::matrix ne_m = vec_math::matrix::transpose(m);
+    vec_math::matrix ne_m = m/vec_math::transpose(m);
 
     std::cout << ne_m << std::endl;
 
     vec_math::column c(3);
 
     vec_math::string s(3);
+
+    std::cout << mull(c, s) << std::endl;
 
     return 0;
 }
