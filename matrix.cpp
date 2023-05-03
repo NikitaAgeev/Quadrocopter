@@ -3,6 +3,7 @@
 #include <iostream>
 #include <iomanip>
 #include <assert.h>
+#include <math.h>
 
 namespace vec_math
 {
@@ -30,6 +31,52 @@ namespace vec_math
         matrix(matrix&& _matrix): width(_matrix.width), hight(_matrix.hight)
         {
             arr = _matrix.arr;
+            _matrix.arr = nullptr;
+        }
+
+        matrix& operator= (const matrix& _matrix)
+        {
+            if(this == &_matrix)
+                return *this;
+            
+            size_t new_hight = _matrix.hight;
+            size_t new_width = _matrix.width;
+
+            if ((hight != new_hight) || (width != new_width))
+            {
+                double* new_arr = new double [new_width*new_hight];
+                std::copy(_matrix.arr, _matrix.arr + new_width*new_hight, new_arr);
+
+                delete[] arr;
+                arr = new_arr;
+
+                width = new_width;
+                hight = new_hight;
+                
+                return *this;
+            }
+
+            std::copy(_matrix.arr, _matrix.arr + new_width*new_hight, arr);
+
+            return *this;
+        }
+
+        matrix& operator= (matrix&& _matrix)
+        {
+            if(this == &_matrix)
+                return *this;
+
+            width = _matrix.width;
+            hight = _matrix.hight; 
+
+            if(arr != nullptr)
+                delete[] arr;
+            
+            arr = _matrix.arr;
+
+            _matrix.arr = nullptr;
+
+            return *this;
         }
 
 
@@ -44,6 +91,9 @@ namespace vec_math
         matrix& operator/= (const matrix& _matrix);
 
         matrix& operator/= (const double& a);
+
+        
+        friend matrix operator- (const matrix& _matrix);
 
 
         friend const matrix operator* (const matrix& _matrix, const double& a);
@@ -61,11 +111,13 @@ namespace vec_math
         friend const matrix operator- (const matrix& _matrix_a, const matrix& _matrix_b);
 
         friend const matrix mull (const matrix& _matrix_a, const matrix& _matrix_b);
- 
+
 
         size_t get_w() const;
         
         size_t get_h() const;
+
+        double* get_arr() const;
 
 
         static matrix get_E (size_t width, size_t hight);
@@ -102,6 +154,11 @@ namespace vec_math
     size_t matrix::get_h() const
     {
         return hight;
+    }
+
+    double* matrix::get_arr() const
+    {
+        return arr;
     }
 
 
@@ -191,6 +248,19 @@ namespace vec_math
         for(size_t itter = 0; itter < width*hight; itter++) arr[itter] /= a;
 
         return *this;
+    }
+
+
+    matrix operator- (const matrix& _matrix)
+    {
+        matrix ans(_matrix);
+        
+        for(size_t itter = 0; itter < ans.hight*ans.width; itter++)
+        {
+            ans.arr[itter] = -ans.arr[itter]; 
+        }
+
+        return ans;
     }
 
 
@@ -419,7 +489,13 @@ namespace vec_math
         string(size_t len): matrix(len, 1) {};
         
         string(const string& _string) = default;
+
         string(string&& _string) = default;
+        
+        string& operator= (const string& _string) = default;
+
+        string& operator= (string& _string) = default;
+
         ~string() = default;
 
         string(const matrix& _matrix)
@@ -436,6 +512,15 @@ namespace vec_math
             }
         }
 
+        string(matrix&& _matrix)
+        {
+            assert(_matrix.get_h() == 1);
+
+            width = _matrix.get_w();
+            hight = 1;
+            arr = _matrix.get_arr();
+        }
+
         //static column transpose (const string& _string);
         
     };
@@ -448,7 +533,13 @@ namespace vec_math
         column(size_t len): matrix(1, len) {};
         
         column(const column& _column) = default;
+
         column(column&& _column) = default;
+
+        column& operator= (const column& _column) = default;
+
+        column& operator= (column&& _column) = default;
+        
         ~column() = default;
 
         column(const matrix& _matrix)
@@ -463,6 +554,15 @@ namespace vec_math
             {
                 arr[itter] = _matrix.get_val(1, itter);
             }
+        }
+
+        column(matrix&& _matrix)
+        {
+            assert(_matrix.get_w() == 1);
+
+            hight = _matrix.get_h();
+            width = 1;
+            arr = _matrix.get_arr();
         }
 
         //static string transpose (const column& _string);
@@ -504,6 +604,7 @@ namespace vec_math
             }
             vector(const vector& _vector): vec(_vector.vec) {};
             vector(vector&& _vector) = default;
+            ~vector() = default;
 
             double& x ();
             double& y ();
@@ -521,6 +622,11 @@ namespace vec_math
 
             vector& operator/= (const double& a);
 
+            vector& operator*= (const matrix& _matrix);
+
+
+            friend vector operator- (const vector& _vector); 
+
 
             friend double operator* (const vector& _vector_a, const vector& _vector_b);
 
@@ -535,6 +641,18 @@ namespace vec_math
             friend vector operator- (const vector& _vector_a, const vector& _vector_b);
 
             friend vector vmull (const vector& _vector_a, const vector& _vector_b);
+
+
+            friend double mull (const vector& _vector_a, const vector& _vector_b);
+
+            friend vector mull (const vector& _vector, const double& a);
+
+            friend vector mull (const double& a, const vector& _vector);
+
+            friend vector mull (const vector& _vector, const matrix& _matrix);
+
+            friend vector mull (const matrix& _matrix, const vector& _vector);
+
     };
 
     double& vector::x()
@@ -571,7 +689,7 @@ namespace vec_math
 
     vector& vector::operator*= (const double& a)
     {
-        vec*= a;
+        vec *= a;
         return *this;
     }
 
@@ -590,6 +708,15 @@ namespace vec_math
     vector& vector::operator/= (const double& a)
     {
         vec /= a;
+        return *this;
+    }
+
+    vector& vector::operator*= (const matrix& _matrix)
+    {
+        column ans_col = inverse(mull(vec, _matrix));
+        
+        vec = ans_col;
+
         return *this;
     }
 
@@ -642,6 +769,101 @@ namespace vec_math
 
         return ans;
     }
+
+
+    double mull (const vector& _vector_a, const vector& _vector_b)
+    {
+        return _vector_a*_vector_b;
+    }
+
+    vector mull (const vector& _vector, const double& a)
+    {
+        return _vector*a;
+    }
+
+    vector mull (const double& a, const vector& _vector)
+    {
+        return _vector*a;
+    }
+
+    vector mull (const vector& _vector, const matrix& _matrix)
+    {
+        assert(_matrix.get_w() == 3);
+        assert(_matrix.get_h() == 3);
+        
+        column str_ans(mull(inverse(_vector.vec), _matrix));
+        vector ans(str_ans(0, 0), str_ans(1, 0), str_ans(2, 0));
+
+        return ans;
+    }
+
+    vector mull (const matrix& _matrix, const vector& _vector)
+    {
+        column col_ans(mull(_matrix, _vector.vec));
+        vector ans(col_ans(0, 0), col_ans(0, 1), col_ans(0, 2));
+
+        return ans;
+    }
+            
+    /*
+    class qaternion
+    {
+        public:
+        double a = 0;
+        vector vec = {0, 0, 0};
+
+        public:
+
+        qaternion() = default;
+        qaternion(const double& _a, const vector& _vec): a(_a), vec(_vec) {};
+        qaternion(const double& _a, const double& _x, const double& _y, const double& _z): a(_a), vec(_x, _y, _z) {};
+        qaternion(const qaternion& _qaternion) = default;
+        qaternion(qaternion&& _qaternion) = default;
+        ~qaternion() = default;
+
+
+        friend qaternion& conjugation (const qaternion& _qaternion);
+
+        friend double& mod(const qaternion& _qaternion);
+
+        qaternion& operator*= (const qaternion& _qaternion);
+
+        qaternion& operator*= (const double& a);
+
+        qaternion& operator+= (const qaternion& _qaternion);
+
+        qaternion& operator-= (const qaternion& _qaternion);
+
+        qaternion& operator/= (const qaternion& qaternion);
+
+        qaternion& operator/= (const double& a);
+
+        
+        
+ 
+
+    };
+
+
+    qaternion& conjugation (const qaternion& _qaternion)
+    {
+        qaternion ans (_qaternion.a, -_qaternion.vec)
+    }
+
+    double& mod(const qaternion& _qaternion);
+
+    qaternion& operator*= (const qaternion& _qaternion);
+
+    qaternion& operator*= (const double& a);
+
+    qaternion& operator+= (const qaternion& _qaternion);
+
+    qaternion& operator-= (const qaternion& _qaternion);
+
+    qaternion& operator/= (const qaternion& qaternion);
+
+    qaternion& operator/= (const double& a);
+    */
 
 
 };
