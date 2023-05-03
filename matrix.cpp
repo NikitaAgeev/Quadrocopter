@@ -606,6 +606,9 @@ namespace vec_math
             vector(vector&& _vector) = default;
             ~vector() = default;
 
+            vector& operator= (const vector& _vector) = default;
+            vector& operator= (vector&& _vector) = default;
+
             double& x ();
             double& y ();
             double& z ();
@@ -624,6 +627,10 @@ namespace vec_math
 
             vector& operator*= (const matrix& _matrix);
 
+
+            friend double mod (const vector& _vector);
+
+            friend double q_mod (const vector& _vector);
 
             friend vector operator- (const vector& _vector); 
 
@@ -770,6 +777,31 @@ namespace vec_math
         return ans;
     }
 
+    vector operator- (const vector& _vector)
+    {
+        vector ans(-(_vector.get_x()), -(_vector.get_y()), -(_vector.get_z()));
+
+        return ans;
+    }
+
+    double mod (const vector& _vector)
+    {
+        double x = _vector.get_x();
+        double y = _vector.get_y();
+        double z = _vector.get_z();
+
+        return sqrt(x*x + y*y + z*z);
+    }
+
+    double q_mod (const vector& _vector)
+    {
+        double x = _vector.get_x();
+        double y = _vector.get_y();
+        double z = _vector.get_z();
+
+        return x*x + y*y + z*z;
+    }
+
 
     double mull (const vector& _vector_a, const vector& _vector_b)
     {
@@ -805,7 +837,7 @@ namespace vec_math
         return ans;
     }
             
-    /*
+    
     class qaternion
     {
         public:
@@ -821,14 +853,20 @@ namespace vec_math
         qaternion(qaternion&& _qaternion) = default;
         ~qaternion() = default;
 
+        qaternion& operator= (const qaternion& _qaternion) = default;
+        qaternion& operator= (qaternion&& _qaternion) = default;
 
-        friend qaternion& conjugation (const qaternion& _qaternion);
 
-        friend double& mod(const qaternion& _qaternion);
+        friend qaternion conjugation (const qaternion& _qaternion);
+
+        friend double mod(const qaternion& _qaternion);
+
+        friend double q_mod(const qaternion& _qaternion);
+
 
         qaternion& operator*= (const qaternion& _qaternion);
 
-        qaternion& operator*= (const double& a);
+        qaternion& operator*= (const double& _a);
 
         qaternion& operator+= (const qaternion& _qaternion);
 
@@ -836,35 +874,178 @@ namespace vec_math
 
         qaternion& operator/= (const qaternion& qaternion);
 
-        qaternion& operator/= (const double& a);
+        qaternion& operator/= (const double& _a);
 
         
-        
- 
+        friend qaternion operator* (const qaternion& _qaternion_a, const qaternion& _qaternion_b);
+
+        friend qaternion operator* (const qaternion& _qaternion, const double& _a);
+
+        friend qaternion operator* (const double& _a, const qaternion& _qaternion);
+
+        friend qaternion mull (const qaternion& _qaternion_a, const qaternion& _qaternion_b);
+
+        friend qaternion mull (const qaternion& _qaternion, const double& _a);
+
+        friend qaternion mull (const double& _a, const qaternion& _qaternion);
+
+        friend qaternion operator/ (const qaternion& _qaternion_a, const qaternion& _qaternion_b);
+
+        friend qaternion operator/ (const qaternion& _qaternion, const double& _a);
+
+        friend qaternion operator/ (const double& _a, const qaternion& _qaternion);
+
+        friend qaternion operator+ (const qaternion& _qaternion_a, const qaternion& _qaternion_b);
+
+        friend qaternion operator- (const qaternion& _qaternion_a, const qaternion& _qaternion_b);
 
     };
 
 
-    qaternion& conjugation (const qaternion& _qaternion)
+    qaternion conjugation (const qaternion& _qaternion)
     {
-        qaternion ans (_qaternion.a, -_qaternion.vec)
+        qaternion ans (_qaternion.a, -_qaternion.vec);
+
+        return ans;
     }
 
-    double& mod(const qaternion& _qaternion);
+    double mod(const qaternion& _qaternion)
+    {
+        return sqrt(_qaternion.a*_qaternion.a + q_mod(_qaternion.vec));
+    }
 
-    qaternion& operator*= (const qaternion& _qaternion);
+    double q_mod(const qaternion& _qaternion)
+    {
+        return _qaternion.a*_qaternion.a + q_mod(_qaternion.vec);
+    }
 
-    qaternion& operator*= (const double& a);
 
-    qaternion& operator+= (const qaternion& _qaternion);
+    qaternion& qaternion::operator*= (const qaternion& _qaternion)
+    {
+        double new_a = a*_qaternion.a - vec*_qaternion.vec;
+        vec = a*_qaternion.vec + _qaternion.a*vec + vmull(vec, _qaternion.vec);
+        a = new_a;
+        
+        return *this;
+    }
 
-    qaternion& operator-= (const qaternion& _qaternion);
+    qaternion& qaternion::operator*= (const double& _a)
+    {
+        a *= _a;
+        vec *= _a;
 
-    qaternion& operator/= (const qaternion& qaternion);
+        return *this; 
+    }
 
-    qaternion& operator/= (const double& a);
-    */
+    qaternion& qaternion::operator+= (const qaternion& _qaternion)
+    {
+        a += _qaternion.a;
+        vec += _qaternion.vec;
 
+        return *this;
+    }
+
+    qaternion& qaternion::operator-= (const qaternion& _qaternion)
+    {
+        a -= _qaternion.a;
+        vec -= _qaternion.vec;
+        
+        return *this;
+    }
+
+    qaternion& qaternion::operator/= (const qaternion& _qaternion)
+    {
+        qaternion conj_q = conjugation(_qaternion);
+        conj_q /= q_mod(_qaternion);
+        *this *= conj_q;
+        
+        return *this;
+    }
+
+    qaternion& qaternion::operator/= (const double& _a)
+    {
+        a /= _a;
+        vec /= _a;
+
+        return *this; 
+    }
+
+    
+    qaternion operator* (const qaternion& _qaternion_a, const qaternion& _qaternion_b)
+    {
+        qaternion ans(_qaternion_a);
+        ans *= _qaternion_b;
+
+        return ans;
+    }
+
+    qaternion operator* (const qaternion& _qaternion, const double& _a)
+    {
+        qaternion ans(_qaternion);
+        ans *= _a;
+
+        return ans;
+    }
+
+    qaternion operator* (const double& _a, const qaternion& _qaternion)
+    {
+        qaternion ans(_qaternion);
+        ans *= _a;
+
+        return ans;
+    }
+
+    qaternion mull (const qaternion& _qaternion_a, const qaternion& _qaternion_b)
+    {
+        return _qaternion_a * _qaternion_b;
+    }
+
+    qaternion mull (const qaternion& _qaternion, const double& _a)
+    {
+        return _qaternion * _a;
+    }
+
+    qaternion mull (const double& _a, const qaternion& _qaternion)
+    {
+        return _qaternion * _a;
+    }
+
+    qaternion operator/ (const qaternion& _qaternion_a, const qaternion& _qaternion_b)
+    {
+        qaternion ans(_qaternion_a);
+        ans /= _qaternion_b;
+
+        return ans;
+    }
+
+    qaternion operator/ (const qaternion& _qaternion, const double& _a)
+    {
+        qaternion ans(_qaternion);
+        ans /= _a;
+
+        return ans;
+    }
+
+    qaternion operator/ (const double& _a, const qaternion& _qaternion)
+    {
+        return (_a * conjugation(_qaternion))/q_mod(_qaternion);
+    }
+
+    qaternion operator+ (const qaternion& _qaternion_a, const qaternion& _qaternion_b)
+    {
+        qaternion ans(_qaternion_a);
+        ans += _qaternion_b;
+
+        return ans;
+    }
+
+    qaternion operator- (const qaternion& _qaternion_a, const qaternion& _qaternion_b)
+    {
+        qaternion ans(_qaternion_a);
+        ans -= _qaternion_b;
+
+        return ans;
+    }
 
 };
 
