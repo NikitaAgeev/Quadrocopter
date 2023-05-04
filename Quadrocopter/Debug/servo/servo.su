@@ -1,0 +1,2 @@
+../servo/servo.cpp:11:6:void servo_motor::change_value(double)	24	static
+../servo/servo.cpp:16:6:void servo_motor::refresh_value()	48	static

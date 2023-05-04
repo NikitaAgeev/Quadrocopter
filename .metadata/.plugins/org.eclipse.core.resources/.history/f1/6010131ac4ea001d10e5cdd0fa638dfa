@@ -1,0 +1,20 @@
+/*
+ * servo.cpp
+ *
+ *  Created on: May 4, 2023
+ *      Author: nikita
+ */
+
+#include <servo.h>
+
+void servo::change_value(double angle)
+{
+	new_value = ((andle/(2*PI))*((MAX_SERVO + 1 + MIN_SERVO + 1)/2)) + MIN_SERVO;
+}
+
+void servo::refresh_value()
+{
+
+}
+
+

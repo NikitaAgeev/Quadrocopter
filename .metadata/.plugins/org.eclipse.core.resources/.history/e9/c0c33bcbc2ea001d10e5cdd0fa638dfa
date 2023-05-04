@@ -1,0 +1,38 @@
+/*
+ * servo.h
+ *
+ *  Created on: May 4, 2023
+ *      Author: nikita
+ */
+
+#ifndef SERVO_H_
+#define SERVO_H_
+
+#include "main.h"
+
+#define MAX_SERVO 1999
+#define MIN_SERVO 999
+#define PI 		  3.1415
+
+class servo_motor
+{
+	TIM_HandleTypeDef* htim_ptr = nullptr;
+
+	uint16_t my_value = 999;
+	uint16_t new_value = 1499;
+
+	uint32_t Channel = 0;
+
+	servo_motor() = default;
+	servo_motor(TIM_HandleTypeDef* _htim, uint32_t _cannel): htim_ptr(_htim), Channel(_channel) {};
+	~servo_motor() = default;
+
+	void change_value(double angle);
+
+	void refresh_value();
+
+};
+
+
+
+#endif /* SERVO_H_ */
