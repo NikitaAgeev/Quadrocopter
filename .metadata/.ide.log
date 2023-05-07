@@ -666,3 +666,1361 @@
 2023-05-05 01:33:29,494 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 2023-05-05 01:33:29,494 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
 2023-05-05 01:33:29,494 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-05-05 01:51:03,130 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SWT SessionManagerDBus: Failed to UnregisterClient: GDBus.Error:org.freedesktop.DBus.Error.NoReply: Message recipient disconnected from message bus without replying
+2023-05-07 12:16:02,761 [INFO] Activator:179 - 
+
+
+2023-05-07 12:16:02,761 [INFO] Activator:180 - !SESSION log4j initialized
+2023-05-07 12:16:05,604 [ERROR] ConfigurationRetriever:140 - IOException on connection: citools.st.com
+2023-05-07 12:16:05,604 [ERROR] ConfigurationRetriever:140 - IOException on connection: citools.st.com
+2023-05-07 12:16:05,604 [ERROR] ConfigurationRetriever:140 - IOException on connection: citools.st.com
+2023-05-07 12:16:25,722 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+2023-05-07 12:16:25,722 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: Defaulting to no-operation (NOP) logger implementation
+2023-05-07 12:16:25,722 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2023-05-07 12:24:35,111 [INFO] McuFinderGlobals:52 - Set McuFinder mode to 2 (CubeIDE integrated)
+2023-05-07 12:24:35,181 [INFO] ApplicationProperties:181 - Using Application install path: /opt/st/stm32cubeide_1.11.2/plugins/com.st.stm32cube.common.mx_6.7.0.202301130839
+2023-05-07 12:24:35,191 [INFO] DbMcusXml:77 - Set database path to: /opt/st/stm32cubeide_1.11.2/plugins/com.st.stm32cube.common.mx_6.7.0.202301130839//db//mcu/
+2023-05-07 12:24:35,191 [INFO] ApiDb:273 - Set plugin database path to: /opt/st/stm32cubeide_1.11.2/plugins/com.st.stm32cube.common.mx_6.7.0.202301130839//db//plugins/boardmanager/
+2023-05-07 12:24:35,193 [WARN] ApiDb:258 - Overriding images path with different value:  => /opt/st/stm32cubeide_1.11.2/plugins/com.st.stm32cube.common.mx_6.7.0.202301130839//db//plugins/mcufinder/images/
+2023-05-07 12:24:35,203 [INFO] ApiDb:249 - Set database path to: /home/nikita/.stmcufinder/plugins/mcufinder//mcu/
+2023-05-07 12:24:35,204 [INFO] DbMcusAds:124 - Set database path to: /home/nikita/.stmcufinder/plugins/mcufinder//mcu/
+2023-05-07 12:24:35,209 [INFO] CrossReferenceDbSqlite:202 - Set database path to: /home/nikita/.stmcufinder/plugins/mcufinder//mcu/cs/
+2023-05-07 12:24:35,262 [INFO] RulesReader:61 - Compatibility file has been processed (283 Rules)
+2023-05-07 12:24:35,298 [INFO] DbMcusXml:77 - Set database path to: /opt/st/stm32cubeide_1.11.2/plugins/com.st.stm32cube.common.mx_6.7.0.202301130839//db//mcu/
+2023-05-07 12:24:35,298 [INFO] ApiDb:273 - Set plugin database path to: /opt/st/stm32cubeide_1.11.2/plugins/com.st.stm32cube.common.mx_6.7.0.202301130839//db//plugins/boardmanager/
+2023-05-07 12:24:35,298 [INFO] ApiDb:260 - Set plugin images path to: /opt/st/stm32cubeide_1.11.2/plugins/com.st.stm32cube.common.mx_6.7.0.202301130839//db//plugins/mcufinder/images/
+2023-05-07 12:24:35,298 [WARN] DbFile:40 - Overriding database path with different value: /home/nikita/.stmcufinder/plugins/mcufinder/ => /home/nikita/.stmcufinder/plugins/mcufinder
+2023-05-07 12:24:35,298 [INFO] ApiDb:249 - Set database path to: /home/nikita/.stmcufinder/plugins/mcufinder//mcu/
+2023-05-07 12:24:35,298 [WARN] DbFile:40 - Overriding database path with different value: /home/nikita/.stmcufinder/plugins/mcufinder/ => /home/nikita/.stmcufinder/plugins/mcufinder
+2023-05-07 12:24:35,298 [INFO] DbMcusAds:124 - Set database path to: /home/nikita/.stmcufinder/plugins/mcufinder//mcu/
+2023-05-07 12:24:35,299 [WARN] DbFile:40 - Overriding database path with different value: /home/nikita/.stmcufinder/plugins/mcufinder/ => /home/nikita/.stmcufinder/plugins/mcufinder
+2023-05-07 12:24:35,299 [WARN] DbFile:40 - Overriding database path with different value: /home/nikita/.stmcufinder/plugins/mcufinder/ => /home/nikita/.stmcufinder/plugins/mcufinder
+2023-05-07 12:24:35,299 [INFO] CrossReferenceDbSqlite:202 - Set database path to: /home/nikita/.stmcufinder/plugins/mcufinder//mcu/cs/
+2023-05-07 12:24:35,334 [INFO] MainPanel:252 - HeapMemory: 409993216
+2023-05-07 12:24:35,379 [INFO] DbMcusXml:77 - Set database path to: /opt/st/stm32cubeide_1.11.2/plugins/com.st.stm32cube.common.mx_6.7.0.202301130839//db//mcu/
+2023-05-07 12:24:35,379 [INFO] ApiDb:273 - Set plugin database path to: /opt/st/stm32cubeide_1.11.2/plugins/com.st.stm32cube.common.mx_6.7.0.202301130839//db//plugins/boardmanager/
+2023-05-07 12:24:35,379 [INFO] ApiDb:260 - Set plugin images path to: /opt/st/stm32cubeide_1.11.2/plugins/com.st.stm32cube.common.mx_6.7.0.202301130839//db//plugins/mcufinder/images/
+2023-05-07 12:24:35,379 [WARN] DbFile:40 - Overriding database path with different value: /home/nikita/.stmcufinder/plugins/mcufinder/ => /home/nikita/.stmcufinder/plugins/mcufinder
+2023-05-07 12:24:35,379 [INFO] ApiDb:249 - Set database path to: /home/nikita/.stmcufinder/plugins/mcufinder//mcu/
+2023-05-07 12:24:35,379 [WARN] DbFile:40 - Overriding database path with different value: /home/nikita/.stmcufinder/plugins/mcufinder/ => /home/nikita/.stmcufinder/plugins/mcufinder
+2023-05-07 12:24:35,379 [INFO] DbMcusAds:124 - Set database path to: /home/nikita/.stmcufinder/plugins/mcufinder//mcu/
+2023-05-07 12:24:35,379 [WARN] DbFile:40 - Overriding database path with different value: /home/nikita/.stmcufinder/plugins/mcufinder/ => /home/nikita/.stmcufinder/plugins/mcufinder
+2023-05-07 12:24:35,379 [WARN] DbFile:40 - Overriding database path with different value: /home/nikita/.stmcufinder/plugins/mcufinder/ => /home/nikita/.stmcufinder/plugins/mcufinder
+2023-05-07 12:24:35,379 [INFO] CrossReferenceDbSqlite:202 - Set database path to: /home/nikita/.stmcufinder/plugins/mcufinder//mcu/cs/
+2023-05-07 12:24:35,393 [INFO] ApplicationProperties:181 - Using Application install path: /opt/st/stm32cubeide_1.11.2/plugins/com.st.stm32cube.common.mx_6.7.0.202301130839
+2023-05-07 12:24:35,394 [INFO] PluginManage:193 - Search for loadable plugins [exclusion list=, ]
+2023-05-07 12:24:35,394 [INFO] PluginManage:307 - Check plugin analytics
+2023-05-07 12:24:35,456 [INFO] AnalyticsPlugin:262 - Accepted Software Licenses: STM32CubeMX.6.7.0
+2023-05-07 12:24:35,457 [INFO] AnalyticsPlugin:264 - Accepted CMSIS Pack Licenses: 
+2023-05-07 12:24:35,457 [INFO] AnalyticsPlugin:266 - Accepted Firmware Licenses: 
+2023-05-07 12:24:35,459 [INFO] PluginManage:356 - Loaded plugin analytics (category:tool,tabindex:-1)
+2023-05-07 12:24:35,460 [INFO] PluginManage:307 - Check plugin cadmodel
+2023-05-07 12:24:35,497 [INFO] CADModel:104 - Init CAD model plugin
+2023-05-07 12:24:35,497 [INFO] PluginManage:356 - Loaded plugin cadmodel (category:power,tabindex:5)
+2023-05-07 12:24:35,497 [INFO] PluginManage:307 - Check plugin clock
+2023-05-07 12:24:35,502 [INFO] PluginManage:356 - Loaded plugin clock (category:base,tabindex:2)
+2023-05-07 12:24:35,502 [INFO] PluginManage:307 - Check plugin ddr
+2023-05-07 12:24:35,504 [INFO] PluginManage:356 - Loaded plugin ddr (category:tool,tabindex:6)
+2023-05-07 12:24:35,504 [INFO] PluginManage:307 - Check plugin filemanager
+2023-05-07 12:24:35,575 [INFO] PluginManage:356 - Loaded plugin filemanager (category:base,tabindex:10)
+2023-05-07 12:24:35,575 [INFO] PluginManage:307 - Check plugin ipmanager
+2023-05-07 12:24:35,578 [INFO] PluginManage:356 - Loaded plugin ipmanager (category:base,tabindex:5)
+2023-05-07 12:24:35,578 [INFO] PluginManage:307 - Check plugin lpbam
+2023-05-07 12:24:35,583 [INFO] PluginManage:356 - Loaded plugin lpbam (category:base,tabindex:0)
+2023-05-07 12:24:35,583 [INFO] PluginManage:307 - Check plugin pinoutandconfiguration
+2023-05-07 12:24:35,586 [INFO] PluginManage:356 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2023-05-07 12:24:35,586 [INFO] PluginManage:307 - Check plugin pinoutconfig
+2023-05-07 12:24:35,599 [INFO] PluginManage:356 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2023-05-07 12:24:35,599 [INFO] PluginManage:307 - Check plugin power
+2023-05-07 12:24:35,604 [INFO] PluginManage:356 - Loaded plugin power (category:power,tabindex:4)
+2023-05-07 12:24:35,605 [INFO] PluginManage:307 - Check plugin projectmanager
+2023-05-07 12:24:35,613 [INFO] PluginManage:356 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2023-05-07 12:24:35,613 [INFO] PluginManage:307 - Check plugin thirdparty
+2023-05-07 12:24:35,665 [WARN] IntegrityCheckThread:82 - waiting for thirdparty lock release [integrity check]
+2023-05-07 12:24:35,666 [INFO] PluginManage:356 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2023-05-07 12:24:35,666 [INFO] IntegrityCheckThread:84 - entering critical section [integrity check]
+2023-05-07 12:24:35,666 [INFO] PluginManage:307 - Check plugin tools
+2023-05-07 12:24:35,667 [INFO] ThirdPartyUpdaterWithRetryManager:70 - Updater plugin not ready yet. [1/15]
+2023-05-07 12:24:35,667 [INFO] PluginManage:356 - Loaded plugin tools (category:base,tabindex:7)
+2023-05-07 12:24:35,667 [INFO] PluginManage:307 - Check plugin tutovideos
+2023-05-07 12:24:35,779 [INFO] PluginManage:356 - Loaded plugin tutovideos (category:base,tabindex:-1)
+2023-05-07 12:24:35,779 [INFO] PluginManage:307 - Check plugin updater
+2023-05-07 12:24:35,787 [INFO] PluginManage:356 - Loaded plugin updater (category:base,tabindex:12)
+2023-05-07 12:24:35,787 [INFO] PluginManage:280 - PluginManage : Loaded plugins [15]
+2023-05-07 12:24:35,892 [INFO] PinOutPanel:1477 - setPackage(No Configuration,No Configuration)
+2023-05-07 12:24:35,924 [INFO] CADModel:164 - CPN selected for project level
+2023-05-07 12:24:35,924 [INFO] CADModel:113 - Register for checkConnection events
+2023-05-07 12:24:35,931 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:35,931 [INFO] PluginManager:219 - loadIPPluginJar : add freertos
+2023-05-07 12:24:35,935 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:35,936 [INFO] PluginManager:219 - loadIPPluginJar : add mdma
+2023-05-07 12:24:35,936 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:35,937 [INFO] PluginManager:219 - loadIPPluginJar : add ucpd
+2023-05-07 12:24:35,940 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:35,940 [INFO] PluginManager:219 - loadIPPluginJar : add linkedlist
+2023-05-07 12:24:35,941 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:35,941 [INFO] PluginManager:219 - loadIPPluginJar : add comp
+2023-05-07 12:24:35,942 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:35,942 [INFO] PluginManager:219 - loadIPPluginJar : add dma3
+2023-05-07 12:24:35,943 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:35,943 [INFO] PluginManager:219 - loadIPPluginJar : add fatfs
+2023-05-07 12:24:35,947 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:35,947 [INFO] PluginManager:219 - loadIPPluginJar : add i2s
+2023-05-07 12:24:35,951 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:35,951 [INFO] PluginManager:219 - loadIPPluginJar : add gpio
+2023-05-07 12:24:35,952 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:35,952 [INFO] PluginManager:219 - loadIPPluginJar : add quadspi
+2023-05-07 12:24:35,953 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:35,953 [INFO] PluginManager:219 - loadIPPluginJar : add pdm2pcm
+2023-05-07 12:24:35,955 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:35,955 [INFO] PluginManager:219 - loadIPPluginJar : add i2c
+2023-05-07 12:24:35,957 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:35,957 [INFO] PluginManager:219 - loadIPPluginJar : add nvic
+2023-05-07 12:24:35,957 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:35,958 [INFO] PluginManager:219 - loadIPPluginJar : add tim
+2023-05-07 12:24:35,958 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:35,959 [INFO] PluginManager:219 - loadIPPluginJar : add gfxmmu
+2023-05-07 12:24:35,961 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:35,961 [INFO] PluginManager:219 - loadIPPluginJar : add gic
+2023-05-07 12:24:35,962 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:35,962 [INFO] PluginManager:219 - loadIPPluginJar : add can
+2023-05-07 12:24:35,963 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:35,963 [INFO] PluginManager:219 - loadIPPluginJar : add dfsdm
+2023-05-07 12:24:35,964 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:35,964 [INFO] PluginManager:219 - loadIPPluginJar : add ts
+2023-05-07 12:24:35,966 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:35,966 [INFO] PluginManager:219 - loadIPPluginJar : add openamp
+2023-05-07 12:24:35,967 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:35,967 [INFO] PluginManager:219 - loadIPPluginJar : add aes
+2023-05-07 12:24:35,968 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:35,968 [INFO] PluginManager:219 - loadIPPluginJar : add lorawan
+2023-05-07 12:24:35,973 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:35,973 [INFO] PluginManager:219 - loadIPPluginJar : add adc
+2023-05-07 12:24:35,974 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:35,974 [INFO] PluginManager:219 - loadIPPluginJar : add hash
+2023-05-07 12:24:35,975 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:35,975 [INFO] PluginManager:219 - loadIPPluginJar : add spi
+2023-05-07 12:24:35,976 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:35,976 [INFO] PluginManager:219 - loadIPPluginJar : add gtzc
+2023-05-07 12:24:35,977 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:35,977 [INFO] PluginManager:219 - loadIPPluginJar : add sai
+2023-05-07 12:24:35,979 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:35,979 [INFO] PluginManager:219 - loadIPPluginJar : add stm32_wpan
+2023-05-07 12:24:35,982 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:35,982 [INFO] PluginManager:219 - loadIPPluginJar : add dma
+2023-05-07 12:24:35,985 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:35,987 [INFO] PluginManager:219 - loadIPPluginJar : add plateformsettings
+2023-05-07 12:24:35,988 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:35,989 [INFO] PluginManager:219 - loadIPPluginJar : add cryp
+2023-05-07 12:24:35,989 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:35,989 [INFO] PluginManager:219 - loadIPPluginJar : add tracer_emb
+2023-05-07 12:24:35,990 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:35,991 [INFO] PluginManager:219 - loadIPPluginJar : add usart
+2023-05-07 12:24:35,991 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:35,991 [INFO] PluginManager:219 - loadIPPluginJar : add ltdc
+2023-05-07 12:24:35,993 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:35,993 [INFO] PluginManager:219 - loadIPPluginJar : add touchsensing
+2023-05-07 12:24:35,994 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:35,994 [INFO] PluginManager:219 - loadIPPluginJar : add genericplugin
+2023-05-07 12:24:35,996 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:35,996 [INFO] PluginManager:219 - loadIPPluginJar : add ipddr
+2023-05-07 12:24:35,998 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:35,998 [INFO] PluginManager:219 - loadIPPluginJar : add opamp
+2023-05-07 12:24:36,000 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:36,000 [INFO] PluginManager:219 - loadIPPluginJar : add resmgrutility
+2023-05-07 12:24:36,001 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:36,001 [INFO] PluginManager:219 - loadIPPluginJar : add usbx
+2023-05-07 12:24:36,003 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:36,004 [INFO] PluginManager:219 - loadIPPluginJar : add fmc
+2023-05-07 12:24:36,004 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:36,004 [INFO] PluginManager:219 - loadIPPluginJar : add tsc
+2023-05-07 12:24:36,094 [INFO] CADModel:164 - CPN selected for project level
+2023-05-07 12:24:36,094 [INFO] CADModel:113 - Register for checkConnection events
+2023-05-07 12:24:36,094 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-05-07 12:24:36,094 [ERROR] CADModel:124 - Updater not yet initialized, retry later 
+2023-05-07 12:24:36,161 [INFO] CADModel:164 - CPN selected for project level
+2023-05-07 12:24:36,161 [INFO] CADModel:113 - Register for checkConnection events
+2023-05-07 12:24:36,161 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-05-07 12:24:36,161 [ERROR] CADModel:124 - Updater not yet initialized, retry later 
+2023-05-07 12:24:36,164 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-05-07 12:24:36,219 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-05-07 12:24:36,223 [INFO] DbMcusAds:52 - JSON generation date=Tue Mar 07 11:50:54 MSK 2023 (1678179054783)
+2023-05-07 12:24:36,223 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-05-07 12:24:36,244 [WARN] DetailPanel:344 - Failed to get advertising image, set to default
+2023-05-07 12:24:36,299 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-05-07 12:24:36,301 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-05-07 12:24:36,301 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-05-07 12:24:36,301 [WARN] DetailPanel:344 - Failed to get advertising image, set to default
+2023-05-07 12:24:36,301 [FATAL] Updater:308 - Updater called before beeing initialized
+2023-05-07 12:24:36,319 [ERROR] Updater:1120 - MainUpdater not yet initialized. External WinMGr cannot be set.
+2023-05-07 12:24:36,321 [INFO] Updater:1056 - Updater Version found : 6.7.0
+2023-05-07 12:24:36,344 [INFO] ApplicationProperties:181 - Using Application install path: /opt/st/stm32cubeide_1.11.2/plugins/com.st.stm32cube.common.mx_6.7.0.202301130839
+2023-05-07 12:24:36,402 [INFO] MainUpdater:2800 - connection check result : 10
+2023-05-07 12:24:36,403 [INFO] MainUpdater:282 - Updater Check For Update Now.
+2023-05-07 12:24:36,403 [INFO] MicroXplorer:481 - Change Database Version : DB.6.0.70
+2023-05-07 12:24:36,541 [INFO] CheckServerUpdateThread:119 - End of CheckServer Thread
+2023-05-07 12:24:36,611 [INFO] MainUpdater:2800 - connection check result : 10
+2023-05-07 12:24:36,617 [INFO] MainUpdater:2800 - connection check result : 10
+2023-05-07 12:24:36,637 [INFO] MicroXplorer:451 - Change Database Path : 
+2023-05-07 12:24:36,637 [INFO] MicroXplorer:481 - Change Database Version : DB.6.0.70
+2023-05-07 12:24:36,637 [WARN] ThirdParty:845 - waiting for thirdparty lock release [close project]
+2023-05-07 12:24:38,713 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-GNSS1.6.0.0
+2023-05-07 12:24:38,727 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-F4.1.1.0
+2023-05-07 12:24:38,731 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-SMBUS.2.1.0
+2023-05-07 12:24:38,737 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-F7.1.1.0
+2023-05-07 12:24:38,759 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-MEMS1.9.6.0
+2023-05-07 12:24:38,838 [ERROR] RealEvaluatedCondition:430 - Found unsupported composite condition: CLASS='Data Exchange' GROUP='STM32_MetaDataManager'
+2023-05-07 12:24:38,838 [ERROR] RealEvaluatedCondition:430 - Found unsupported composite condition: GROUP='STM32_MetaDataManager' CLASS='Data Exchange'
+2023-05-07 12:24:38,839 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.FP-SNS-MOTENV1.4.3.0
+2023-05-07 12:24:38,841 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.FP-SNS-FLIGHT1.5.0.0
+2023-05-07 12:24:38,845 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLE1.6.2.4
+2023-05-07 12:24:38,849 [WARN] PackLoader:242 - Cannot read IP mode file for emotas.I-CUBE-CANOPEN.1.1.3
+2023-05-07 12:24:38,854 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLEMGR.2.0.0
+2023-05-07 12:24:38,867 [WARN] ConditionMgr:437 - getConditionDescription Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2023-05-07 12:24:38,868 [WARN] ConditionMgr:437 - getConditionDescription Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2023-05-07 12:24:38,870 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-H7.3.1.0
+2023-05-07 12:24:38,871 [WARN] ConditionMgr:1038 - genDependencies : Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2023-05-07 12:24:38,871 [WARN] ConditionMgr:1038 - genDependencies : Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2023-05-07 12:24:38,871 [WARN] ConditionMgr:1038 - genDependencies : Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2023-05-07 12:24:38,872 [WARN] ConditionMgr:1038 - genDependencies : Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2023-05-07 12:24:38,872 [WARN] ConditionMgr:1038 - genDependencies : Invalid condition id : UX DEVICE CLASS RTOS Condition cause : null
+2023-05-07 12:24:38,879 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-DISPLAY.3.0.0
+2023-05-07 12:24:38,885 [WARN] PackLoader:242 - Cannot read IP mode file for wolfSSL.I-CUBE-wolfSSL.5.5.4
+2023-05-07 12:24:38,888 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-NFC7.1.0.0
+2023-05-07 12:24:38,892 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-EEPRMA1.4.1.0
+2023-05-07 12:24:38,897 [WARN] PackLoader:242 - Cannot read IP mode file for WES.I-CUBE-Cesium.1.3.0
+2023-05-07 12:24:38,901 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-SFXS2LP1.4.0.0
+2023-05-07 12:24:38,904 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLE2.3.3.0
+2023-05-07 12:24:38,911 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOF1.3.2.0
+2023-05-07 12:24:38,928 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-H7.3.0.0
+2023-05-07 12:24:38,932 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ISPU.1.1.0
+2023-05-07 12:24:38,934 [WARN] PackLoader:242 - Cannot read IP mode file for RoweBots.I-CUBE-UNISONRTOS.5.5.0-4
+2023-05-07 12:24:38,936 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AI.8.0.0
+2023-05-07 12:24:38,938 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-FREERTOS.1.0.1
+2023-05-07 12:24:38,939 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOUCHGFX.4.21.1
+2023-05-07 12:24:38,940 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOUCHGFX.4.21.3
+2023-05-07 12:24:38,941 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ALGOBUILD.1.3.0
+2023-05-07 12:24:38,950 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-L5.1.1.0
+2023-05-07 12:24:38,957 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-G0.1.1.0
+2023-05-07 12:24:38,961 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-SUBG2.5.0.0
+2023-05-07 12:24:38,967 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-NFC4.3.0.0
+2023-05-07 12:24:38,973 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-G4.2.0.0
+2023-05-07 12:24:38,977 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOF1.3.3.0
+2023-05-07 12:24:38,982 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.FP-ATR-ASTRA1.1.1.1
+2023-05-07 12:24:38,989 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-G4.1.0.0
+2023-05-07 12:24:38,992 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.FP-ATR-SIGFOX1.3.2.0
+2023-05-07 12:24:39,002 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-L4.1.0.0
+2023-05-07 12:24:39,011 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-WL.1.0.0
+2023-05-07 12:24:39,015 [WARN] PackLoader:242 - Cannot read IP mode file for portGmbH.I-Cube-SoM-uGOAL.1.1.0
+2023-05-07 12:24:39,018 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ALS.1.0.1
+2023-05-07 12:24:39,045 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-MEMS1.9.5.0
+2023-05-07 12:24:39,148 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-WB.1.1.0
+2023-05-07 12:24:39,160 [WARN] PackLoader:242 - Cannot read IP mode file for SEGGER.I-CUBE-embOS.1.3.1
+2023-05-07 12:24:39,178 [WARN] PackLoader:242 - Cannot read IP mode file for STMicroelectronics.FP-ATR-ASTRA1.2.0.0
+2023-05-07 12:24:39,178 [INFO] ThirdParty:947 - Integrity check success = true
+2023-05-07 12:24:39,178 [INFO] IntegrityCheckThread:98 - exiting critical section [integrity check]
+2023-05-07 12:24:39,178 [INFO] IntegrityCheckThread:101 - End integrity checks thread
+2023-05-07 12:24:39,178 [INFO] ThirdParty:847 - entering critical section [close project]
+2023-05-07 12:24:39,179 [INFO] ThirdParty:857 - exiting critical section [close project]
+2023-05-07 12:24:39,182 [INFO] PinOutPanel:1477 - setPackage(No Configuration,No Configuration)
+2023-05-07 12:24:39,186 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 435167072 Bytes (492830720)
+2023-05-07 12:24:39,187 [INFO] MicroXplorer:451 - Change Database Path : 
+2023-05-07 12:24:39,187 [INFO] MicroXplorer:481 - Change Database Version : DB.6.0.70
+2023-05-07 12:24:39,187 [INFO] OpenFileManager:307 - Change cursor
+2023-05-07 12:24:39,205 [INFO] Mcu:1925 - Initializing MCU STM32F100R(8-B)Tx STM32F100RBTx STM32F100RBT6B
+2023-05-07 12:24:39,587 [INFO] Context:654 - Trying to add GPIOservice into a context  which must be forbidden
+2023-05-07 12:24:39,773 [INFO] RtosManager:489 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2023-05-07 12:24:39,773 [INFO] RtosManager:489 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2023-05-07 12:24:39,773 [INFO] RtosManager:489 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2023-05-07 12:24:39,773 [INFO] RtosManager:489 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2023-05-07 12:24:39,773 [WARN] ModelIntegratedComponent:185 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2023-05-07 12:24:39,779 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 12:24:39,779 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 12:24:39,779 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 12:24:39,779 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 12:24:39,779 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 12:24:39,779 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 12:24:39,779 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 12:24:39,779 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 12:24:39,779 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 12:24:39,779 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 12:24:39,779 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 12:24:39,779 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 12:24:39,779 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 12:24:39,779 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 12:24:39,779 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 12:24:39,779 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 12:24:39,779 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 12:24:39,779 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 12:24:39,779 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 12:24:39,779 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 12:24:39,779 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 12:24:39,779 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 12:24:39,779 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 12:24:39,779 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 12:24:39,779 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 12:24:39,780 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 12:24:39,780 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 12:24:39,780 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 12:24:39,780 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 12:24:39,780 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 12:24:39,780 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 12:24:39,780 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 12:24:39,780 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 12:24:39,815 [INFO] ThirdPartyModel:294 - Start build external matchings
+2023-05-07 12:24:39,972 [INFO] ThirdPartyModel:310 - End build external matchings
+2023-05-07 12:24:40,077 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 434600496 Bytes (542113792)
+2023-05-07 12:24:40,128 [INFO] ApiDb:580 - Connected to CubeFinder SQLite database (/home/nikita/.stmcufinder/plugins/mcufinder/mcu/cube-finder-db.db)
+2023-05-07 12:24:40,151 [INFO] ApiDb:667 - CubeFinder database Data Model version=2.1
+2023-05-07 12:24:40,151 [INFO] ApiDb:668 - CubeFinder database Configuration version=3.0.35
+2023-05-07 12:24:40,151 [INFO] ApiDb:669 - CubeFinder database generation date=2023-04-03 (1680511692)
+2023-05-07 12:24:40,151 [INFO] ApiDb:670 - CubeFinder database FW Pack versions=[FP-ATR-ASTRA1_V2.0.0, STM32Cube_FW_C0_V1.0.1, STM32Cube_FW_F0_V1.11.4, STM32Cube_FW_F3_V1.11.4, STM32Cube_FW_F4_V1.27.1, STM32Cube_FW_F7_V1.17.0, STM32Cube_FW_G0_V1.6.1, STM32Cube_FW_G4_V1.5.1, STM32Cube_FW_H5_V0.5.1, STM32Cube_FW_H5_V1.0.0, STM32Cube_FW_H7_V1.11.0, STM32Cube_FW_L0_V1.12.2, STM32Cube_FW_L5_V1.5.0, STM32Cube_FW_U5_V1.2.0, STM32Cube_FW_WBA_V1.0.0, STM32Cube_FW_WBA_V1.0.0RC1, STM32Cube_FW_WBA_V1.0.0RC3, STM32Cube_FW_WB_V1.15.0RC1, STM32Cube_FW_WB_V1.16.0, STM32Cube_FW_WB_V1.16.0RC2, STM32Cube_FW_WL_V1.3.0, X-CUBE-ALGOBUILD_V1.3.0, X-CUBE-ALS_V1.0.1, X-CUBE-AZRTOS-F4_V1.1.0, X-CUBE-AZRTOS-F7_V1.1.0, X-CUBE-AZRTOS-G0_V1.1.0, X-CUBE-AZRTOS-G4_V1.0.0, X-CUBE-AZRTOS-H7_V3.0.0, X-CUBE-AZRTOS-L4_V1.0.0, X-CUBE-AZRTOS-L5_V1.1.0, X-CUBE-AZRTOS-WB_V1.1.0, X-CUBE-AZRTOS-WL_V1.0.0, X-CUBE-BLE1_V6.2.4, X-CUBE-BLE2_V3.3.0, X-CUBE-BLEMGR_V1.3.0, X-CUBE-EEPRMA1_V4.1.0, X-CUBE-FREERTOS_V1.0.1, X-CUBE-GNSS1_V6.0.0, X-CUBE-MEMS1_V9.1.0, X-CUBE-MEMS1_V9.4.0, X-CUBE-MEMS1_V9.5.0, X-CUBE-NFC4_V3.0.0, X-CUBE-NFC7_V1.0.0, X-CUBE-SFXS2LP1_V4.0.0, X-CUBE-SUBG2_V5.0.0]
+2023-05-07 12:24:41,073 [INFO] ApiDb:239 - Found 143 in-development CPN: [B-WB1M-WPAN1, B-WL5M-SUBG1, NUCLEO-C031C6, STEVAL-PROTEUS1, STEVAL-STWINBX1, STM320518-EVAL, STM32C0116-DK, STM32C011D6Y3TR, STM32C011D6Y6TR, STM32C011F4P3, STM32C011F4P6, STM32C011F4U3, STM32C011F4U6TR, STM32C011F6P3, STM32C011F6P6, STM32C011F6U3, STM32C011F6U6TR, STM32C011J4M3, STM32C011J4M6, STM32C011J6M3, STM32C011J6M6, STM32C0316-DK, STM32C031C4T3, STM32C031C4T6, STM32C031C4U3, STM32C031C4U6, STM32C031C6T3, STM32C031C6T6, STM32C031C6U3, STM32C031C6U6, STM32C031F4P3, STM32C031F4P6, STM32C031F6P3, STM32C031F6P6, STM32C031G4U3, STM32C031G4U6, STM32C031G6U3, STM32C031G6U6, STM32C031K4T3, STM32C031K4T6, STM32C031K4U3, STM32C031K4U6, STM32C031K6T3, STM32C031K6T6, STM32C031K6U3, STM32C031K6U6, STM32G071K8TXN, STM32G071K8UXN, STM32G081GBU6N, STM32G081KBT6N, STM32G081KBUXN, STM32G0B1CCT6N, STM32G0B1KCT6, STM32G0B1NEY6TR, STM32G0B1RCT6N, STM32G0C1CCT6, STM32G0C1CCT6N, STM32G0C1CCU6N, STM32G0C1CET6N, STM32G0C1CEU6N, STM32G0C1KCT6, STM32G0C1NEY6TR, STM32G0C1RCI6N, STM32G0C1RCT6N, STM32G0C1REI6N, STM32G0C1RET6N, STM32G0C1VCI6, STM32G0C1VEI6, STM32G471CCT6, STM32G471CCU6, STM32G471CET3, STM32G471CET6, STM32G471CEU3, STM32G471CEU6, STM32G471MCT6, STM32G471MET3, STM32G471MET6, STM32G471MEY6TR, STM32G471QCT6, STM32G471QET3, STM32G471RCT6, STM32G471RET3, STM32G471RET6, STM32G471VCH6, STM32G471VCI6, STM32G471VCT6, STM32G471VEH3, STM32G471VEH6, STM32G471VEI3, STM32G471VEI6, STM32G471VET3, STM32G471VET6, STM32G474CCT6, STM32L476VGY6PTR, STM32L4R5QGI6STR, STM32MP131AAE3, STM32MP131AAF3, STM32MP131AAG3, STM32MP131CAE3, STM32MP131CAF3, STM32MP131CAG3, STM32MP131DAE7, STM32MP131DAF7, STM32MP131DAG7, STM32MP131FAE7, STM32MP131FAF7, STM32MP131FAG7, STM32MP133AAE3, STM32MP133AAF3, STM32MP133AAG3, STM32MP133CAE3, STM32MP133CAF3, STM32MP133CAG3, STM32MP133DAE7, STM32MP133DAF7, STM32MP133DAG7, STM32MP133FAE7, STM32MP133FAF7, STM32MP133FAG7, STM32MP135AAE3, STM32MP135AAF3, STM32MP135AAG3, STM32MP135CAE3, STM32MP135CAF3, STM32MP135CAG3, STM32MP135DAE7, STM32MP135DAF7, STM32MP135DAG7, STM32MP135F-DK, STM32MP135FAE7, STM32MP135FAF7, STM32MP135FAF7T, STM32MP135FAF7U, STM32MP135FAG7, STM32U595ZJT6Q, STM32U599BJY6QTR, STM32U599NIH6Q, STM32U599NJH6Q, STM32U5A5ZJT6Q, STM32U5A9BJY6QTR, STM32U5A9NJH6Q, STM32WB1MMCH6, STM32WL5MOCH6TR]
+2023-05-07 12:24:41,075 [INFO] DbMcus:215 - Found 3680 MCUs, 3680 are supported
+2023-05-07 12:24:41,076 [INFO] ApiDb:422 - Load user favorites file /home/nikita/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2023-05-07 12:24:41,076 [INFO] ApiDb:426 - User favorites MCUs=[]
+2023-05-07 12:24:41,076 [INFO] DbMcus:221 - Set 0 / 0 favorites MCUs
+2023-05-07 12:24:41,254 [WARN] ThirdParty:807 - waiting for thirdparty lock release [change project]
+2023-05-07 12:24:41,254 [INFO] ThirdParty:809 - entering critical section [change project]
+2023-05-07 12:24:41,254 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ISPU 1.1.0
+2023-05-07 12:24:41,254 [INFO] ThirdParty:999 - CMSIS Pack Vendor :RoweBots I-CUBE-UNISONRTOS 5.5.0-4
+2023-05-07 12:24:41,254 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 6.0.0
+2023-05-07 12:24:41,254 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2023-05-07 12:24:41,254 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.1.0
+2023-05-07 12:24:41,254 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics LIBJPEG 8.0.0
+2023-05-07 12:24:41,254 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SMBUS 2.1.0
+2023-05-07 12:24:41,254 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2023-05-07 12:24:41,254 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 8.0.0
+2023-05-07 12:24:41,254 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-FREERTOS 1.0.1
+2023-05-07 12:24:41,254 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.21.1
+2023-05-07 12:24:41,254 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.21.3
+2023-05-07 12:24:41,254 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.1.0
+2023-05-07 12:24:41,254 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2023-05-07 12:24:41,254 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.6.0
+2023-05-07 12:24:41,254 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENV1 4.3.0
+2023-05-07 12:24:41,254 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-FLIGHT1 5.0.0
+2023-05-07 12:24:41,254 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.3.0
+2023-05-07 12:24:41,254 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.4
+2023-05-07 12:24:41,254 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 1.1.0
+2023-05-07 12:24:41,254 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2023-05-07 12:24:41,254 [INFO] ThirdParty:999 - CMSIS Pack Vendor :emotas I-CUBE-CANOPEN 1.1.3
+2023-05-07 12:24:41,254 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G0 1.1.0
+2023-05-07 12:24:41,254 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 2.0.0
+2023-05-07 12:24:41,254 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 5.0.0
+2023-05-07 12:24:41,254 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 3.0.0
+2023-05-07 12:24:41,254 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics STM32_WPAN 1.0.0
+2023-05-07 12:24:41,254 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2023-05-07 12:24:41,254 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2023-05-07 12:24:41,254 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 2.0.0
+2023-05-07 12:24:41,254 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2023-05-07 12:24:41,254 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.1.0
+2023-05-07 12:24:41,254 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.3.0
+2023-05-07 12:24:41,254 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 1.1.1
+2023-05-07 12:24:41,254 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2023-05-07 12:24:41,254 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 3.0.0
+2023-05-07 12:24:41,254 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 1.0.0
+2023-05-07 12:24:41,254 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-SIGFOX1 3.2.0
+2023-05-07 12:24:41,254 [INFO] ThirdParty:999 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 5.5.4
+2023-05-07 12:24:41,254 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 1.0.0
+2023-05-07 12:24:41,254 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2023-05-07 12:24:41,254 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2023-05-07 12:24:41,254 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2023-05-07 12:24:41,254 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.0
+2023-05-07 12:24:41,254 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WL 1.0.0
+2023-05-07 12:24:41,254 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 4.1.0
+2023-05-07 12:24:41,254 [INFO] ThirdParty:999 - CMSIS Pack Vendor :portGmbH I-Cube-SoM-uGOAL 1.1.0
+2023-05-07 12:24:41,254 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALS 1.0.1
+2023-05-07 12:24:41,254 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.5.0
+2023-05-07 12:24:41,254 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics ThreadX 1.0.0
+2023-05-07 12:24:41,254 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WB 1.1.0
+2023-05-07 12:24:41,254 [INFO] ThirdParty:999 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.3.1
+2023-05-07 12:24:41,254 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2023-05-07 12:24:41,254 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2023-05-07 12:24:41,254 [INFO] ThirdParty:999 - CMSIS Pack Vendor :WES I-CUBE-Cesium 1.3.0
+2023-05-07 12:24:41,254 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 2.0.0
+2023-05-07 12:24:41,254 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2023-05-07 12:24:41,254 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 4.0.0
+2023-05-07 12:24:41,254 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.3.0
+2023-05-07 12:24:41,255 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.2.0
+2023-05-07 12:24:41,255 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2023-05-07 12:24:41,255 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.0.0
+2023-05-07 12:24:41,255 [INFO] ThirdParty:815 - exiting critical section [change project]
+2023-05-07 12:24:41,379 [INFO] PinOutPanel:1477 - setPackage(No Configuration,No Configuration)
+2023-05-07 12:24:41,379 [INFO] PinOutPanel:1477 - setPackage(STM32F100RBTx,LQFP64)
+2023-05-07 12:24:41,547 [INFO] UtilMem:74 - Before build in PCC Used Memory: 476252432 Bytes (542113792)
+2023-05-07 12:24:41,942 [INFO] UtilMem:74 - After build in PCC Used Memory: 470251368 Bytes (542113792)
+2023-05-07 12:24:41,956 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:41,956 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:41,956 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:41,956 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:41,956 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:41,956 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:41,957 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:41,957 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:41,957 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:41,957 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:41,957 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:41,957 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:41,957 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:41,957 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:41,957 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:41,957 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:41,958 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:41,958 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:41,958 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:41,958 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:41,958 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:41,958 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:41,958 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:41,958 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:41,958 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:41,958 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:41,958 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:41,958 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:41,959 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:41,959 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 12:24:42,078 [INFO] CADModel:164 - CPN selected for project levelSTM32F100RBT6B
+2023-05-07 12:24:42,078 [INFO] CADModel:113 - Register for checkConnection events
+2023-05-07 12:24:42,115 [INFO] OpenFileManager:327 - Restore cursor
+2023-05-07 12:26:33,530 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-05-07 12:26:57,516 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-05-07 12:27:02,536 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-05-07 12:27:09,559 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 189661272 Bytes (542113792)
+2023-05-07 13:24:35,631 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-05-07 13:24:42,459 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-05-07 13:24:46,307 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 435489104 Bytes (542113792)
+2023-05-07 13:24:47,520 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 455896952 Bytes (542113792)
+2023-05-07 13:24:58,038 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 266173360 Bytes (542113792)
+2023-05-07 13:24:58,303 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-05-07 13:24:58,303 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F1
+2023-05-07 13:24:58,303 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F1
+2023-05-07 13:24:58,303 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-05-07 13:24:58,303 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-05-07 13:24:58,303 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-05-07 13:24:58,303 [INFO] CodeGenerator:692 - code generatio: config db path: /opt/st/stm32cubeide_1.11.2/plugins/com.st.stm32cube.common.mx_6.7.0.202301130839//db/
+2023-05-07 13:24:58,400 [INFO] CodeEngine:247 - oldGeneratedFile, /home/nikita/Documents/Quadrocopter/Quadrocopter/MXTmpFiles/license.tmp_save
+2023-05-07 13:24:58,560 [INFO] CodeEngine:271 - Generated code: /home/nikita/Documents/Quadrocopter/Quadrocopter/MXTmpFiles/license.tmp
+2023-05-07 13:24:58,598 [INFO] CodeEngine:247 - oldGeneratedFile, /home/nikita/Documents/Quadrocopter/Quadrocopter/MXTmpFiles/gpio.tmp_save
+2023-05-07 13:24:58,641 [INFO] CodeEngine:271 - Generated code: /home/nikita/Documents/Quadrocopter/Quadrocopter/MXTmpFiles/gpio.tmp
+2023-05-07 13:24:58,691 [INFO] CodeEngine:247 - oldGeneratedFile, /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Src/stm32f1xx_it.c_save
+2023-05-07 13:24:58,749 [INFO] CodeEngine:271 - Generated code: /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Src/stm32f1xx_it.c
+2023-05-07 13:24:58,750 [INFO] CodeEngine:247 - oldGeneratedFile, /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Inc/stm32f1xx_it.h_save
+2023-05-07 13:24:58,775 [INFO] CodeEngine:271 - Generated code: /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Inc/stm32f1xx_it.h
+2023-05-07 13:24:58,777 [INFO] CodeEngine:247 - oldGeneratedFile, /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Src/stm32f1xx_hal_msp.c_save
+2023-05-07 13:24:58,829 [INFO] CodeEngine:271 - Generated code: /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Src/stm32f1xx_hal_msp.c
+2023-05-07 13:24:58,830 [INFO] CodeEngine:247 - oldGeneratedFile, /home/nikita/Documents/Quadrocopter/Quadrocopter/MXTmpFiles/system.tmp_save
+2023-05-07 13:24:58,854 [INFO] CodeEngine:271 - Generated code: /home/nikita/Documents/Quadrocopter/Quadrocopter/MXTmpFiles/system.tmp
+2023-05-07 13:24:58,855 [INFO] CodeEngine:303 - oldGeneratedFile, /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Inc/stm32f1xx_hal_conf.h_save
+2023-05-07 13:24:58,901 [INFO] CodeEngine:327 - Generated code: /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Inc/stm32f1xx_hal_conf.h
+2023-05-07 13:24:58,910 [WARN] IPConfigManager:3414 - IP not found : TIM
+2023-05-07 13:24:58,910 [WARN] CodeGenerator:3583 - IP not found : null
+2023-05-07 13:24:58,911 [INFO] CodeEngine:247 - oldGeneratedFile, /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Inc/main.h_save
+2023-05-07 13:24:58,945 [INFO] CodeEngine:271 - Generated code: /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Inc/main.h
+2023-05-07 13:24:58,946 [INFO] CodeEngine:247 - oldGeneratedFile, /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Src/main.c_save
+2023-05-07 13:24:58,996 [INFO] CodeEngine:271 - Generated code: /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Src/main.c
+2023-05-07 13:24:59,191 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 22mS.
+2023-05-07 13:24:59,195 [INFO] ProjectBuilder:4183 - Project Generator version: 3.18.0-B7
+2023-05-07 13:24:59,324 [INFO] ConfigFileManager:1396 - The Die is : DIE420
+2023-05-07 13:24:59,338 [INFO] ApiDbMcu:505 - Load IP Config File for FATFS
+2023-05-07 13:24:59,342 [INFO] ApiDbMcu:505 - Load IP Config File for FREERTOS
+2023-05-07 13:25:00,026 [INFO] ProjectBuilder:4351 - Time for Generating toolchain IDE Files: 830mS.
+2023-05-07 13:25:00,027 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2023-05-07 13:25:00,027 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2023-05-07 13:25:14,495 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 266787448 Bytes (640679936)
+2023-05-07 13:25:14,564 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-05-07 13:25:14,564 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F1
+2023-05-07 13:25:14,564 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F1
+2023-05-07 13:25:14,564 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-05-07 13:25:14,564 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-05-07 13:25:14,564 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-05-07 13:25:14,565 [INFO] CodeGenerator:692 - code generatio: config db path: /opt/st/stm32cubeide_1.11.2/plugins/com.st.stm32cube.common.mx_6.7.0.202301130839//db/
+2023-05-07 13:25:14,626 [INFO] CodeEngine:247 - oldGeneratedFile, /home/nikita/Documents/Quadrocopter/Quadrocopter/MXTmpFiles/license.tmp_save
+2023-05-07 13:25:14,652 [INFO] CodeEngine:271 - Generated code: /home/nikita/Documents/Quadrocopter/Quadrocopter/MXTmpFiles/license.tmp
+2023-05-07 13:25:14,656 [INFO] CodeEngine:247 - oldGeneratedFile, /home/nikita/Documents/Quadrocopter/Quadrocopter/MXTmpFiles/gpio.tmp_save
+2023-05-07 13:25:14,682 [INFO] CodeEngine:271 - Generated code: /home/nikita/Documents/Quadrocopter/Quadrocopter/MXTmpFiles/gpio.tmp
+2023-05-07 13:25:14,703 [INFO] CodeEngine:247 - oldGeneratedFile, /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Src/stm32f1xx_it.c_save
+2023-05-07 13:25:14,736 [INFO] CodeEngine:271 - Generated code: /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Src/stm32f1xx_it.c
+2023-05-07 13:25:14,737 [INFO] CodeEngine:247 - oldGeneratedFile, /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Inc/stm32f1xx_it.h_save
+2023-05-07 13:25:14,761 [INFO] CodeEngine:271 - Generated code: /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Inc/stm32f1xx_it.h
+2023-05-07 13:25:14,763 [INFO] CodeEngine:247 - oldGeneratedFile, /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Src/stm32f1xx_hal_msp.c_save
+2023-05-07 13:25:14,798 [INFO] CodeEngine:271 - Generated code: /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Src/stm32f1xx_hal_msp.c
+2023-05-07 13:25:14,799 [INFO] CodeEngine:247 - oldGeneratedFile, /home/nikita/Documents/Quadrocopter/Quadrocopter/MXTmpFiles/system.tmp_save
+2023-05-07 13:25:14,822 [INFO] CodeEngine:271 - Generated code: /home/nikita/Documents/Quadrocopter/Quadrocopter/MXTmpFiles/system.tmp
+2023-05-07 13:25:14,823 [INFO] CodeEngine:303 - oldGeneratedFile, /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Inc/stm32f1xx_hal_conf.h_save
+2023-05-07 13:25:14,849 [INFO] CodeEngine:327 - Generated code: /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Inc/stm32f1xx_hal_conf.h
+2023-05-07 13:25:14,852 [WARN] IPConfigManager:3414 - IP not found : TIM
+2023-05-07 13:25:14,853 [WARN] CodeGenerator:3583 - IP not found : null
+2023-05-07 13:25:14,853 [INFO] CodeEngine:247 - oldGeneratedFile, /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Inc/main.h_save
+2023-05-07 13:25:14,898 [INFO] CodeEngine:271 - Generated code: /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Inc/main.h
+2023-05-07 13:25:14,899 [INFO] CodeEngine:247 - oldGeneratedFile, /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Src/main.c_save
+2023-05-07 13:25:14,942 [INFO] CodeEngine:271 - Generated code: /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Src/main.c
+2023-05-07 13:25:15,106 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 7mS.
+2023-05-07 13:25:15,106 [INFO] ProjectBuilder:4183 - Project Generator version: 3.18.0-B7
+2023-05-07 13:25:15,223 [INFO] ConfigFileManager:1396 - The Die is : DIE420
+2023-05-07 13:25:15,629 [INFO] ProjectBuilder:4351 - Time for Generating toolchain IDE Files: 523mS.
+2023-05-07 13:25:15,629 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2023-05-07 13:25:15,629 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2023-05-07 13:25:24,438 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 228897912 Bytes (694157312)
+2023-05-07 13:25:24,503 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-05-07 13:25:24,504 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F1
+2023-05-07 13:25:24,504 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F1
+2023-05-07 13:25:24,504 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-05-07 13:25:24,504 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-05-07 13:25:24,504 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-05-07 13:25:24,504 [INFO] CodeGenerator:692 - code generatio: config db path: /opt/st/stm32cubeide_1.11.2/plugins/com.st.stm32cube.common.mx_6.7.0.202301130839//db/
+2023-05-07 13:25:24,564 [INFO] CodeEngine:247 - oldGeneratedFile, /home/nikita/Documents/Quadrocopter/Quadrocopter/MXTmpFiles/license.tmp_save
+2023-05-07 13:25:24,587 [INFO] CodeEngine:271 - Generated code: /home/nikita/Documents/Quadrocopter/Quadrocopter/MXTmpFiles/license.tmp
+2023-05-07 13:25:24,590 [INFO] CodeEngine:247 - oldGeneratedFile, /home/nikita/Documents/Quadrocopter/Quadrocopter/MXTmpFiles/gpio.tmp_save
+2023-05-07 13:25:24,614 [INFO] CodeEngine:271 - Generated code: /home/nikita/Documents/Quadrocopter/Quadrocopter/MXTmpFiles/gpio.tmp
+2023-05-07 13:25:24,632 [INFO] CodeEngine:247 - oldGeneratedFile, /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Src/stm32f1xx_it.c_save
+2023-05-07 13:25:24,663 [INFO] CodeEngine:271 - Generated code: /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Src/stm32f1xx_it.c
+2023-05-07 13:25:24,664 [INFO] CodeEngine:247 - oldGeneratedFile, /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Inc/stm32f1xx_it.h_save
+2023-05-07 13:25:24,686 [INFO] CodeEngine:271 - Generated code: /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Inc/stm32f1xx_it.h
+2023-05-07 13:25:24,687 [INFO] CodeEngine:247 - oldGeneratedFile, /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Src/stm32f1xx_hal_msp.c_save
+2023-05-07 13:25:24,721 [INFO] CodeEngine:271 - Generated code: /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Src/stm32f1xx_hal_msp.c
+2023-05-07 13:25:24,721 [INFO] CodeEngine:247 - oldGeneratedFile, /home/nikita/Documents/Quadrocopter/Quadrocopter/MXTmpFiles/system.tmp_save
+2023-05-07 13:25:24,744 [INFO] CodeEngine:271 - Generated code: /home/nikita/Documents/Quadrocopter/Quadrocopter/MXTmpFiles/system.tmp
+2023-05-07 13:25:24,745 [INFO] CodeEngine:303 - oldGeneratedFile, /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Inc/stm32f1xx_hal_conf.h_save
+2023-05-07 13:25:24,770 [INFO] CodeEngine:327 - Generated code: /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Inc/stm32f1xx_hal_conf.h
+2023-05-07 13:25:24,773 [WARN] IPConfigManager:3414 - IP not found : TIM
+2023-05-07 13:25:24,773 [WARN] CodeGenerator:3583 - IP not found : null
+2023-05-07 13:25:24,774 [INFO] CodeEngine:247 - oldGeneratedFile, /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Inc/main.h_save
+2023-05-07 13:25:24,798 [INFO] CodeEngine:271 - Generated code: /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Inc/main.h
+2023-05-07 13:25:24,799 [INFO] CodeEngine:247 - oldGeneratedFile, /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Src/main.c_save
+2023-05-07 13:25:24,835 [INFO] CodeEngine:271 - Generated code: /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Src/main.c
+2023-05-07 13:25:25,014 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 6mS.
+2023-05-07 13:25:25,015 [INFO] ProjectBuilder:4183 - Project Generator version: 3.18.0-B7
+2023-05-07 13:25:25,101 [INFO] ConfigFileManager:1396 - The Die is : DIE420
+2023-05-07 13:25:25,502 [INFO] ProjectBuilder:4351 - Time for Generating toolchain IDE Files: 487mS.
+2023-05-07 13:25:25,502 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2023-05-07 13:25:25,503 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2023-05-07 13:26:27,143 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 353084640 Bytes (742391808)
+2023-05-07 13:26:27,199 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-05-07 13:26:27,199 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F1
+2023-05-07 13:26:27,199 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F1
+2023-05-07 13:26:27,199 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-05-07 13:26:27,200 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-05-07 13:26:27,200 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-05-07 13:26:27,200 [INFO] CodeGenerator:692 - code generatio: config db path: /opt/st/stm32cubeide_1.11.2/plugins/com.st.stm32cube.common.mx_6.7.0.202301130839//db/
+2023-05-07 13:26:27,251 [INFO] CodeEngine:247 - oldGeneratedFile, /home/nikita/Documents/Quadrocopter/Quadrocopter/MXTmpFiles/license.tmp_save
+2023-05-07 13:26:27,280 [INFO] CodeEngine:271 - Generated code: /home/nikita/Documents/Quadrocopter/Quadrocopter/MXTmpFiles/license.tmp
+2023-05-07 13:26:27,292 [INFO] CodeEngine:247 - oldGeneratedFile, /home/nikita/Documents/Quadrocopter/Quadrocopter/MXTmpFiles/gpio.tmp_save
+2023-05-07 13:26:27,316 [INFO] CodeEngine:271 - Generated code: /home/nikita/Documents/Quadrocopter/Quadrocopter/MXTmpFiles/gpio.tmp
+2023-05-07 13:26:27,333 [INFO] CodeEngine:247 - oldGeneratedFile, /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Src/stm32f1xx_it.c_save
+2023-05-07 13:26:27,363 [INFO] CodeEngine:271 - Generated code: /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Src/stm32f1xx_it.c
+2023-05-07 13:26:27,364 [INFO] CodeEngine:247 - oldGeneratedFile, /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Inc/stm32f1xx_it.h_save
+2023-05-07 13:26:27,386 [INFO] CodeEngine:271 - Generated code: /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Inc/stm32f1xx_it.h
+2023-05-07 13:26:27,388 [INFO] CodeEngine:247 - oldGeneratedFile, /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Src/stm32f1xx_hal_msp.c_save
+2023-05-07 13:26:27,421 [INFO] CodeEngine:271 - Generated code: /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Src/stm32f1xx_hal_msp.c
+2023-05-07 13:26:27,422 [INFO] CodeEngine:247 - oldGeneratedFile, /home/nikita/Documents/Quadrocopter/Quadrocopter/MXTmpFiles/system.tmp_save
+2023-05-07 13:26:27,444 [INFO] CodeEngine:271 - Generated code: /home/nikita/Documents/Quadrocopter/Quadrocopter/MXTmpFiles/system.tmp
+2023-05-07 13:26:27,445 [INFO] CodeEngine:303 - oldGeneratedFile, /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Inc/stm32f1xx_hal_conf.h_save
+2023-05-07 13:26:27,470 [INFO] CodeEngine:327 - Generated code: /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Inc/stm32f1xx_hal_conf.h
+2023-05-07 13:26:27,473 [WARN] IPConfigManager:3414 - IP not found : TIM
+2023-05-07 13:26:27,473 [WARN] CodeGenerator:3583 - IP not found : null
+2023-05-07 13:26:27,474 [INFO] CodeEngine:247 - oldGeneratedFile, /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Inc/main.h_save
+2023-05-07 13:26:27,498 [INFO] CodeEngine:271 - Generated code: /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Inc/main.h
+2023-05-07 13:26:27,499 [INFO] CodeEngine:247 - oldGeneratedFile, /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Src/main.c_save
+2023-05-07 13:26:27,534 [INFO] CodeEngine:271 - Generated code: /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Src/main.c
+2023-05-07 13:26:27,696 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 6mS.
+2023-05-07 13:26:27,697 [INFO] ProjectBuilder:4183 - Project Generator version: 3.18.0-B7
+2023-05-07 13:26:27,782 [INFO] ConfigFileManager:1396 - The Die is : DIE420
+2023-05-07 13:26:28,173 [INFO] ProjectBuilder:4351 - Time for Generating toolchain IDE Files: 476mS.
+2023-05-07 13:26:28,174 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2023-05-07 13:26:28,174 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2023-05-07 14:04:56,276 [ERROR] ConfigurationRetriever:140 - IOException on connection: citools.st.com
+2023-05-07 14:04:56,276 [ERROR] ConfigurationRetriever:140 - IOException on connection: citools.st.com
+2023-05-07 14:04:56,276 [ERROR] ConfigurationRetriever:140 - IOException on connection: citools.st.com
+2023-05-07 14:22:03,279 [ERROR] ConfigurationRetriever:140 - IOException on connection: citools.st.com
+2023-05-07 14:22:03,280 [ERROR] ConfigurationRetriever:140 - IOException on connection: citools.st.com
+2023-05-07 14:22:03,280 [ERROR] ConfigurationRetriever:140 - IOException on connection: citools.st.com
+2023-05-07 14:22:11,096 [ERROR] ConfigurationRetriever:140 - IOException on connection: citools.st.com
+2023-05-07 14:22:11,096 [ERROR] ConfigurationRetriever:140 - IOException on connection: citools.st.com
+2023-05-07 14:22:11,096 [ERROR] ConfigurationRetriever:140 - IOException on connection: citools.st.com
+2023-05-07 14:23:12,199 [INFO] MainUpdater:2800 - connection check result : 10
+2023-05-07 14:23:12,200 [INFO] MainUpdater:2800 - connection check result : 10
+2023-05-07 14:23:12,208 [INFO] MicroXplorer:451 - Change Database Path : 
+2023-05-07 14:23:12,208 [INFO] MicroXplorer:481 - Change Database Version : DB.6.0.70
+2023-05-07 14:23:12,215 [WARN] ThirdParty:845 - waiting for thirdparty lock release [close project]
+2023-05-07 14:23:12,215 [INFO] ThirdParty:847 - entering critical section [close project]
+2023-05-07 14:23:12,215 [INFO] ThirdParty:857 - exiting critical section [close project]
+2023-05-07 14:23:12,216 [INFO] PinOutPanel:1477 - setPackage(No Configuration,No Configuration)
+2023-05-07 14:23:12,219 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 316158224 Bytes (742391808)
+2023-05-07 14:23:12,219 [INFO] MicroXplorer:451 - Change Database Path : 
+2023-05-07 14:23:12,219 [INFO] MicroXplorer:481 - Change Database Version : DB.6.0.70
+2023-05-07 14:23:12,220 [INFO] OpenFileManager:307 - Change cursor
+2023-05-07 14:23:12,229 [INFO] RulesReader:61 - Compatibility file has been processed (283 Rules)
+2023-05-07 14:23:12,229 [INFO] Mcu:1925 - Initializing MCU STM32F100R(8-B)Tx STM32F100RBTx STM32F100RBT6B
+2023-05-07 14:23:12,385 [INFO] Context:654 - Trying to add GPIOservice into a context  which must be forbidden
+2023-05-07 14:23:12,473 [INFO] RtosManager:489 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2023-05-07 14:23:12,473 [INFO] RtosManager:489 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2023-05-07 14:23:12,473 [INFO] RtosManager:489 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2023-05-07 14:23:12,473 [INFO] RtosManager:489 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2023-05-07 14:23:12,473 [WARN] ModelIntegratedComponent:185 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2023-05-07 14:23:12,477 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:23:12,477 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:23:12,477 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:23:12,477 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:23:12,477 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:23:12,477 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:23:12,477 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:23:12,477 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:23:12,477 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:23:12,477 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:23:12,478 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:23:12,478 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:23:12,478 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:23:12,478 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:23:12,478 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:23:12,478 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:23:12,478 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:23:12,478 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:23:12,478 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:23:12,478 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:23:12,478 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:23:12,478 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:23:12,478 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:23:12,478 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:23:12,478 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:23:12,478 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:23:12,478 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:23:12,478 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:23:12,478 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:23:12,478 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:23:12,478 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:23:12,478 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:23:12,478 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:23:12,509 [INFO] ThirdPartyModel:294 - Start build external matchings
+2023-05-07 14:23:12,662 [INFO] ThirdPartyModel:310 - End build external matchings
+2023-05-07 14:23:12,739 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 245345600 Bytes (742391808)
+2023-05-07 14:23:12,743 [WARN] ThirdParty:807 - waiting for thirdparty lock release [change project]
+2023-05-07 14:23:12,743 [INFO] ThirdParty:809 - entering critical section [change project]
+2023-05-07 14:23:12,743 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ISPU 1.1.0
+2023-05-07 14:23:12,743 [INFO] ThirdParty:999 - CMSIS Pack Vendor :RoweBots I-CUBE-UNISONRTOS 5.5.0-4
+2023-05-07 14:23:12,743 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 6.0.0
+2023-05-07 14:23:12,743 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2023-05-07 14:23:12,743 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.1.0
+2023-05-07 14:23:12,743 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics LIBJPEG 8.0.0
+2023-05-07 14:23:12,743 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SMBUS 2.1.0
+2023-05-07 14:23:12,743 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2023-05-07 14:23:12,743 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 8.0.0
+2023-05-07 14:23:12,743 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-FREERTOS 1.0.1
+2023-05-07 14:23:12,744 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.21.1
+2023-05-07 14:23:12,744 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.21.3
+2023-05-07 14:23:12,744 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.1.0
+2023-05-07 14:23:12,744 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2023-05-07 14:23:12,744 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.6.0
+2023-05-07 14:23:12,744 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENV1 4.3.0
+2023-05-07 14:23:12,744 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-FLIGHT1 5.0.0
+2023-05-07 14:23:12,744 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.3.0
+2023-05-07 14:23:12,744 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.4
+2023-05-07 14:23:12,744 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 1.1.0
+2023-05-07 14:23:12,744 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2023-05-07 14:23:12,744 [INFO] ThirdParty:999 - CMSIS Pack Vendor :emotas I-CUBE-CANOPEN 1.1.3
+2023-05-07 14:23:12,744 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G0 1.1.0
+2023-05-07 14:23:12,744 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 2.0.0
+2023-05-07 14:23:12,744 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 5.0.0
+2023-05-07 14:23:12,744 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 3.0.0
+2023-05-07 14:23:12,744 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics STM32_WPAN 1.0.0
+2023-05-07 14:23:12,744 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2023-05-07 14:23:12,744 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2023-05-07 14:23:12,744 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 2.0.0
+2023-05-07 14:23:12,744 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2023-05-07 14:23:12,744 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.1.0
+2023-05-07 14:23:12,744 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.3.0
+2023-05-07 14:23:12,744 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 1.1.1
+2023-05-07 14:23:12,744 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2023-05-07 14:23:12,744 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 3.0.0
+2023-05-07 14:23:12,744 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 1.0.0
+2023-05-07 14:23:12,744 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-SIGFOX1 3.2.0
+2023-05-07 14:23:12,744 [INFO] ThirdParty:999 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 5.5.4
+2023-05-07 14:23:12,744 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 1.0.0
+2023-05-07 14:23:12,744 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2023-05-07 14:23:12,744 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2023-05-07 14:23:12,744 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2023-05-07 14:23:12,744 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.0
+2023-05-07 14:23:12,744 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WL 1.0.0
+2023-05-07 14:23:12,744 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 4.1.0
+2023-05-07 14:23:12,744 [INFO] ThirdParty:999 - CMSIS Pack Vendor :portGmbH I-Cube-SoM-uGOAL 1.1.0
+2023-05-07 14:23:12,744 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALS 1.0.1
+2023-05-07 14:23:12,744 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.5.0
+2023-05-07 14:23:12,744 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics ThreadX 1.0.0
+2023-05-07 14:23:12,745 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WB 1.1.0
+2023-05-07 14:23:12,745 [INFO] ThirdParty:999 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.3.1
+2023-05-07 14:23:12,745 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2023-05-07 14:23:12,745 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2023-05-07 14:23:12,745 [INFO] ThirdParty:999 - CMSIS Pack Vendor :WES I-CUBE-Cesium 1.3.0
+2023-05-07 14:23:12,745 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 2.0.0
+2023-05-07 14:23:12,745 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2023-05-07 14:23:12,745 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 4.0.0
+2023-05-07 14:23:12,745 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.3.0
+2023-05-07 14:23:12,745 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.2.0
+2023-05-07 14:23:12,745 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2023-05-07 14:23:12,745 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.0.0
+2023-05-07 14:23:12,745 [INFO] ThirdParty:815 - exiting critical section [change project]
+2023-05-07 14:23:12,833 [INFO] PinOutPanel:1477 - setPackage(No Configuration,No Configuration)
+2023-05-07 14:23:12,833 [INFO] PinOutPanel:1477 - setPackage(STM32F100RBTx,LQFP64)
+2023-05-07 14:23:12,873 [INFO] UtilMem:74 - Before build in PCC Used Memory: 330319520 Bytes (742391808)
+2023-05-07 14:23:12,952 [INFO] UtilMem:74 - After build in PCC Used Memory: 371740320 Bytes (742391808)
+2023-05-07 14:23:12,958 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 14:23:12,958 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 14:23:12,958 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 14:23:12,958 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 14:23:12,958 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 14:23:12,958 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 14:23:12,958 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 14:23:12,958 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 14:23:12,958 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 14:23:12,958 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 14:23:12,958 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 14:23:12,958 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 14:23:12,958 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 14:23:12,958 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 14:23:12,958 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 14:23:12,958 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 14:23:12,958 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 14:23:12,958 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 14:23:12,958 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 14:23:12,958 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 14:23:12,958 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 14:23:12,959 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 14:23:12,959 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 14:23:12,959 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 14:23:12,959 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 14:23:12,959 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 14:23:12,959 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 14:23:12,959 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 14:23:12,959 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 14:23:12,959 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 14:23:12,973 [INFO] CADModel:164 - CPN selected for project levelSTM32F100RBT6B
+2023-05-07 14:23:12,973 [INFO] CADModel:113 - Register for checkConnection events
+2023-05-07 14:23:13,009 [INFO] OpenFileManager:327 - Restore cursor
+2023-05-07 14:23:38,636 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 510634008 Bytes (742391808)
+2023-05-07 14:23:41,183 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 538847736 Bytes (742391808)
+2023-05-07 14:23:44,661 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 589179384 Bytes (742391808)
+2023-05-07 14:23:44,752 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-05-07 14:23:44,752 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F1
+2023-05-07 14:23:44,752 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F1
+2023-05-07 14:23:44,752 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-05-07 14:23:44,752 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-05-07 14:23:44,752 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-05-07 14:23:44,752 [INFO] CodeGenerator:692 - code generatio: config db path: /opt/st/stm32cubeide_1.11.2/plugins/com.st.stm32cube.common.mx_6.7.0.202301130839//db/
+2023-05-07 14:23:44,814 [INFO] CodeEngine:247 - oldGeneratedFile, /home/nikita/Documents/Quadrocopter/Quadrocopter/MXTmpFiles/license.tmp_save
+2023-05-07 14:23:44,849 [INFO] CodeEngine:271 - Generated code: /home/nikita/Documents/Quadrocopter/Quadrocopter/MXTmpFiles/license.tmp
+2023-05-07 14:23:44,859 [INFO] CodeEngine:247 - oldGeneratedFile, /home/nikita/Documents/Quadrocopter/Quadrocopter/MXTmpFiles/gpio.tmp_save
+2023-05-07 14:23:44,886 [INFO] CodeEngine:271 - Generated code: /home/nikita/Documents/Quadrocopter/Quadrocopter/MXTmpFiles/gpio.tmp
+2023-05-07 14:23:44,904 [INFO] CodeEngine:247 - oldGeneratedFile, /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Src/stm32f1xx_it.c_save
+2023-05-07 14:23:44,997 [INFO] CodeEngine:271 - Generated code: /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Src/stm32f1xx_it.c
+2023-05-07 14:23:44,998 [INFO] CodeEngine:247 - oldGeneratedFile, /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Inc/stm32f1xx_it.h_save
+2023-05-07 14:23:45,022 [INFO] CodeEngine:271 - Generated code: /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Inc/stm32f1xx_it.h
+2023-05-07 14:23:45,024 [INFO] CodeEngine:247 - oldGeneratedFile, /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Src/stm32f1xx_hal_msp.c_save
+2023-05-07 14:23:45,067 [INFO] CodeEngine:271 - Generated code: /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Src/stm32f1xx_hal_msp.c
+2023-05-07 14:23:45,067 [INFO] CodeEngine:247 - oldGeneratedFile, /home/nikita/Documents/Quadrocopter/Quadrocopter/MXTmpFiles/system.tmp_save
+2023-05-07 14:23:45,090 [INFO] CodeEngine:271 - Generated code: /home/nikita/Documents/Quadrocopter/Quadrocopter/MXTmpFiles/system.tmp
+2023-05-07 14:23:45,090 [INFO] CodeEngine:303 - oldGeneratedFile, /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Inc/stm32f1xx_hal_conf.h_save
+2023-05-07 14:23:45,115 [INFO] CodeEngine:327 - Generated code: /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Inc/stm32f1xx_hal_conf.h
+2023-05-07 14:23:45,119 [WARN] IPConfigManager:3414 - IP not found : TIM
+2023-05-07 14:23:45,119 [WARN] CodeGenerator:3583 - IP not found : null
+2023-05-07 14:23:45,119 [INFO] CodeEngine:247 - oldGeneratedFile, /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Inc/main.h_save
+2023-05-07 14:23:45,151 [INFO] CodeEngine:271 - Generated code: /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Inc/main.h
+2023-05-07 14:23:45,151 [INFO] CodeEngine:247 - oldGeneratedFile, /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Src/main.c_save
+2023-05-07 14:23:45,192 [INFO] CodeEngine:271 - Generated code: /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Src/main.c
+2023-05-07 14:23:45,350 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 6mS.
+2023-05-07 14:23:45,351 [INFO] ProjectBuilder:4183 - Project Generator version: 3.18.0-B7
+2023-05-07 14:23:45,466 [INFO] ConfigFileManager:1396 - The Die is : DIE420
+2023-05-07 14:23:45,467 [INFO] ApiDbMcu:505 - Load IP Config File for FATFS
+2023-05-07 14:23:45,469 [INFO] ApiDbMcu:505 - Load IP Config File for FREERTOS
+2023-05-07 14:23:45,838 [INFO] ProjectBuilder:4351 - Time for Generating toolchain IDE Files: 487mS.
+2023-05-07 14:23:45,838 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2023-05-07 14:23:45,839 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2023-05-07 14:25:50,360 [ERROR] ConfigurationRetriever:140 - IOException on connection: citools.st.com
+2023-05-07 14:25:50,361 [ERROR] ConfigurationRetriever:140 - IOException on connection: citools.st.com
+2023-05-07 14:25:50,361 [ERROR] ConfigurationRetriever:140 - IOException on connection: citools.st.com
+2023-05-07 14:25:50,488 [ERROR] ConfigurationRetriever:140 - IOException on connection: citools.st.com
+2023-05-07 14:25:50,488 [ERROR] ConfigurationRetriever:140 - IOException on connection: citools.st.com
+2023-05-07 14:25:50,488 [ERROR] ConfigurationRetriever:140 - IOException on connection: citools.st.com
+2023-05-07 14:25:59,497 [INFO] MainUpdater:2800 - connection check result : 10
+2023-05-07 14:25:59,497 [INFO] MainUpdater:2800 - connection check result : 10
+2023-05-07 14:25:59,503 [INFO] MicroXplorer:451 - Change Database Path : 
+2023-05-07 14:25:59,503 [INFO] MicroXplorer:481 - Change Database Version : DB.6.0.70
+2023-05-07 14:25:59,508 [WARN] ThirdParty:845 - waiting for thirdparty lock release [close project]
+2023-05-07 14:25:59,508 [INFO] ThirdParty:847 - entering critical section [close project]
+2023-05-07 14:25:59,508 [INFO] ThirdParty:857 - exiting critical section [close project]
+2023-05-07 14:25:59,509 [INFO] PinOutPanel:1477 - setPackage(No Configuration,No Configuration)
+2023-05-07 14:25:59,510 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 396938440 Bytes (809500672)
+2023-05-07 14:25:59,510 [INFO] MicroXplorer:451 - Change Database Path : 
+2023-05-07 14:25:59,510 [INFO] MicroXplorer:481 - Change Database Version : DB.6.0.70
+2023-05-07 14:25:59,510 [INFO] OpenFileManager:307 - Change cursor
+2023-05-07 14:25:59,513 [INFO] RulesReader:61 - Compatibility file has been processed (283 Rules)
+2023-05-07 14:25:59,514 [INFO] Mcu:1925 - Initializing MCU STM32F100R(8-B)Tx STM32F100RBTx STM32F100RBT6B
+2023-05-07 14:25:59,698 [INFO] Context:654 - Trying to add GPIOservice into a context  which must be forbidden
+2023-05-07 14:25:59,782 [INFO] RtosManager:489 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2023-05-07 14:25:59,782 [INFO] RtosManager:489 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2023-05-07 14:25:59,782 [INFO] RtosManager:489 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2023-05-07 14:25:59,782 [INFO] RtosManager:489 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2023-05-07 14:25:59,782 [WARN] ModelIntegratedComponent:185 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2023-05-07 14:25:59,787 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:25:59,787 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:25:59,787 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:25:59,787 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:25:59,787 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:25:59,787 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:25:59,787 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:25:59,787 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:25:59,787 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:25:59,787 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:25:59,787 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:25:59,787 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:25:59,787 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:25:59,787 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:25:59,787 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:25:59,787 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:25:59,787 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:25:59,787 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:25:59,787 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:25:59,787 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:25:59,787 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:25:59,787 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:25:59,787 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:25:59,787 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:25:59,787 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:25:59,787 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:25:59,787 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:25:59,787 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:25:59,787 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:25:59,787 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:25:59,787 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:25:59,787 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:25:59,787 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 14:25:59,818 [INFO] ThirdPartyModel:294 - Start build external matchings
+2023-05-07 14:25:59,981 [INFO] ThirdPartyModel:310 - End build external matchings
+2023-05-07 14:26:00,052 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 405229072 Bytes (809500672)
+2023-05-07 14:26:00,060 [WARN] ThirdParty:807 - waiting for thirdparty lock release [change project]
+2023-05-07 14:26:00,060 [INFO] ThirdParty:809 - entering critical section [change project]
+2023-05-07 14:26:00,060 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ISPU 1.1.0
+2023-05-07 14:26:00,060 [INFO] ThirdParty:999 - CMSIS Pack Vendor :RoweBots I-CUBE-UNISONRTOS 5.5.0-4
+2023-05-07 14:26:00,060 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 6.0.0
+2023-05-07 14:26:00,060 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2023-05-07 14:26:00,060 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.1.0
+2023-05-07 14:26:00,060 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics LIBJPEG 8.0.0
+2023-05-07 14:26:00,060 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SMBUS 2.1.0
+2023-05-07 14:26:00,060 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2023-05-07 14:26:00,060 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 8.0.0
+2023-05-07 14:26:00,060 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-FREERTOS 1.0.1
+2023-05-07 14:26:00,060 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.21.1
+2023-05-07 14:26:00,060 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.21.3
+2023-05-07 14:26:00,060 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.1.0
+2023-05-07 14:26:00,060 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2023-05-07 14:26:00,060 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.6.0
+2023-05-07 14:26:00,060 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENV1 4.3.0
+2023-05-07 14:26:00,060 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-FLIGHT1 5.0.0
+2023-05-07 14:26:00,060 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.3.0
+2023-05-07 14:26:00,060 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.4
+2023-05-07 14:26:00,060 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 1.1.0
+2023-05-07 14:26:00,060 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2023-05-07 14:26:00,060 [INFO] ThirdParty:999 - CMSIS Pack Vendor :emotas I-CUBE-CANOPEN 1.1.3
+2023-05-07 14:26:00,060 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G0 1.1.0
+2023-05-07 14:26:00,060 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 2.0.0
+2023-05-07 14:26:00,060 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 5.0.0
+2023-05-07 14:26:00,060 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 3.0.0
+2023-05-07 14:26:00,060 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics STM32_WPAN 1.0.0
+2023-05-07 14:26:00,060 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2023-05-07 14:26:00,060 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2023-05-07 14:26:00,060 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 2.0.0
+2023-05-07 14:26:00,060 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2023-05-07 14:26:00,060 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.1.0
+2023-05-07 14:26:00,060 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.3.0
+2023-05-07 14:26:00,061 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 1.1.1
+2023-05-07 14:26:00,061 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2023-05-07 14:26:00,061 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 3.0.0
+2023-05-07 14:26:00,061 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 1.0.0
+2023-05-07 14:26:00,061 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-SIGFOX1 3.2.0
+2023-05-07 14:26:00,061 [INFO] ThirdParty:999 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 5.5.4
+2023-05-07 14:26:00,061 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 1.0.0
+2023-05-07 14:26:00,061 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2023-05-07 14:26:00,061 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2023-05-07 14:26:00,061 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2023-05-07 14:26:00,061 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.0
+2023-05-07 14:26:00,061 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WL 1.0.0
+2023-05-07 14:26:00,061 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 4.1.0
+2023-05-07 14:26:00,061 [INFO] ThirdParty:999 - CMSIS Pack Vendor :portGmbH I-Cube-SoM-uGOAL 1.1.0
+2023-05-07 14:26:00,061 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALS 1.0.1
+2023-05-07 14:26:00,061 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.5.0
+2023-05-07 14:26:00,061 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics ThreadX 1.0.0
+2023-05-07 14:26:00,061 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WB 1.1.0
+2023-05-07 14:26:00,061 [INFO] ThirdParty:999 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.3.1
+2023-05-07 14:26:00,061 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2023-05-07 14:26:00,061 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2023-05-07 14:26:00,061 [INFO] ThirdParty:999 - CMSIS Pack Vendor :WES I-CUBE-Cesium 1.3.0
+2023-05-07 14:26:00,061 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 2.0.0
+2023-05-07 14:26:00,061 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2023-05-07 14:26:00,061 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 4.0.0
+2023-05-07 14:26:00,061 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.3.0
+2023-05-07 14:26:00,061 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.2.0
+2023-05-07 14:26:00,061 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2023-05-07 14:26:00,061 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.0.0
+2023-05-07 14:26:00,061 [INFO] ThirdParty:815 - exiting critical section [change project]
+2023-05-07 14:26:00,132 [INFO] PinOutPanel:1477 - setPackage(No Configuration,No Configuration)
+2023-05-07 14:26:00,133 [INFO] PinOutPanel:1477 - setPackage(STM32F100RBTx,LQFP64)
+2023-05-07 14:26:00,174 [INFO] UtilMem:74 - Before build in PCC Used Memory: 246650304 Bytes (809500672)
+2023-05-07 14:26:00,235 [INFO] UtilMem:74 - After build in PCC Used Memory: 284925376 Bytes (809500672)
+2023-05-07 14:26:00,241 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 14:26:00,242 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 14:26:00,242 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 14:26:00,242 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 14:26:00,242 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 14:26:00,242 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 14:26:00,242 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 14:26:00,242 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 14:26:00,242 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 14:26:00,242 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 14:26:00,242 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 14:26:00,242 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 14:26:00,242 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 14:26:00,242 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 14:26:00,242 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 14:26:00,242 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 14:26:00,242 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 14:26:00,242 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 14:26:00,243 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 14:26:00,243 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 14:26:00,243 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 14:26:00,243 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 14:26:00,243 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 14:26:00,243 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 14:26:00,243 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 14:26:00,243 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 14:26:00,243 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 14:26:00,243 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 14:26:00,243 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 14:26:00,244 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 14:26:00,256 [INFO] CADModel:164 - CPN selected for project levelSTM32F100RBT6B
+2023-05-07 14:26:00,256 [INFO] CADModel:113 - Register for checkConnection events
+2023-05-07 14:26:00,294 [INFO] OpenFileManager:327 - Restore cursor
+2023-05-07 14:26:04,606 [INFO] NvicIntPanel:100 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-05-07 15:48:51,297 [INFO] MainUpdater:2800 - connection check result : 10
+2023-05-07 15:48:51,297 [INFO] MainUpdater:2800 - connection check result : 10
+2023-05-07 15:48:51,312 [INFO] MicroXplorer:451 - Change Database Path : 
+2023-05-07 15:48:51,313 [INFO] MicroXplorer:481 - Change Database Version : DB.6.0.70
+2023-05-07 15:48:51,318 [WARN] ThirdParty:845 - waiting for thirdparty lock release [close project]
+2023-05-07 15:48:51,318 [INFO] ThirdParty:847 - entering critical section [close project]
+2023-05-07 15:48:51,318 [INFO] ThirdParty:857 - exiting critical section [close project]
+2023-05-07 15:48:51,319 [INFO] PinOutPanel:1477 - setPackage(No Configuration,No Configuration)
+2023-05-07 15:48:51,320 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 519922712 Bytes (809500672)
+2023-05-07 15:48:51,320 [INFO] MicroXplorer:451 - Change Database Path : 
+2023-05-07 15:48:51,320 [INFO] MicroXplorer:481 - Change Database Version : DB.6.0.70
+2023-05-07 15:48:51,320 [INFO] OpenFileManager:307 - Change cursor
+2023-05-07 15:48:51,323 [INFO] Mcu:1925 - Initializing MCU STM32F100R(8-B)Tx STM32F100RBTx STM32F100RBT6B
+2023-05-07 15:48:51,476 [INFO] Context:654 - Trying to add GPIOservice into a context  which must be forbidden
+2023-05-07 15:48:51,551 [INFO] RtosManager:489 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2023-05-07 15:48:51,551 [INFO] RtosManager:489 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2023-05-07 15:48:51,551 [INFO] RtosManager:489 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2023-05-07 15:48:51,551 [INFO] RtosManager:489 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2023-05-07 15:48:51,551 [WARN] ModelIntegratedComponent:185 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2023-05-07 15:48:51,556 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:48:51,556 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:48:51,556 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:48:51,556 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:48:51,556 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:48:51,556 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:48:51,556 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:48:51,556 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:48:51,556 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:48:51,556 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:48:51,556 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:48:51,556 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:48:51,556 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:48:51,556 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:48:51,556 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:48:51,556 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:48:51,556 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:48:51,556 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:48:51,556 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:48:51,556 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:48:51,556 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:48:51,556 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:48:51,556 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:48:51,556 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:48:51,556 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:48:51,556 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:48:51,556 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:48:51,556 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:48:51,557 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:48:51,557 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:48:51,557 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:48:51,557 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:48:51,557 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:48:51,596 [INFO] ThirdPartyModel:294 - Start build external matchings
+2023-05-07 15:48:51,753 [INFO] ThirdPartyModel:310 - End build external matchings
+2023-05-07 15:48:51,814 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 420647728 Bytes (809500672)
+2023-05-07 15:48:51,817 [WARN] ThirdParty:807 - waiting for thirdparty lock release [change project]
+2023-05-07 15:48:51,818 [INFO] ThirdParty:809 - entering critical section [change project]
+2023-05-07 15:48:51,818 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ISPU 1.1.0
+2023-05-07 15:48:51,818 [INFO] ThirdParty:999 - CMSIS Pack Vendor :RoweBots I-CUBE-UNISONRTOS 5.5.0-4
+2023-05-07 15:48:51,818 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 6.0.0
+2023-05-07 15:48:51,818 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2023-05-07 15:48:51,818 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.1.0
+2023-05-07 15:48:51,818 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics LIBJPEG 8.0.0
+2023-05-07 15:48:51,818 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SMBUS 2.1.0
+2023-05-07 15:48:51,818 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2023-05-07 15:48:51,818 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 8.0.0
+2023-05-07 15:48:51,818 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-FREERTOS 1.0.1
+2023-05-07 15:48:51,818 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.21.1
+2023-05-07 15:48:51,818 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.21.3
+2023-05-07 15:48:51,818 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.1.0
+2023-05-07 15:48:51,818 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2023-05-07 15:48:51,818 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.6.0
+2023-05-07 15:48:51,818 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENV1 4.3.0
+2023-05-07 15:48:51,818 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-FLIGHT1 5.0.0
+2023-05-07 15:48:51,818 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.3.0
+2023-05-07 15:48:51,818 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.4
+2023-05-07 15:48:51,818 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 1.1.0
+2023-05-07 15:48:51,818 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2023-05-07 15:48:51,818 [INFO] ThirdParty:999 - CMSIS Pack Vendor :emotas I-CUBE-CANOPEN 1.1.3
+2023-05-07 15:48:51,818 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G0 1.1.0
+2023-05-07 15:48:51,818 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 2.0.0
+2023-05-07 15:48:51,818 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 5.0.0
+2023-05-07 15:48:51,818 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 3.0.0
+2023-05-07 15:48:51,818 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics STM32_WPAN 1.0.0
+2023-05-07 15:48:51,818 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2023-05-07 15:48:51,818 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2023-05-07 15:48:51,818 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 2.0.0
+2023-05-07 15:48:51,818 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2023-05-07 15:48:51,818 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.1.0
+2023-05-07 15:48:51,818 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.3.0
+2023-05-07 15:48:51,818 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 1.1.1
+2023-05-07 15:48:51,818 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2023-05-07 15:48:51,818 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 3.0.0
+2023-05-07 15:48:51,818 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 1.0.0
+2023-05-07 15:48:51,818 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-SIGFOX1 3.2.0
+2023-05-07 15:48:51,818 [INFO] ThirdParty:999 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 5.5.4
+2023-05-07 15:48:51,818 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 1.0.0
+2023-05-07 15:48:51,818 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2023-05-07 15:48:51,818 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2023-05-07 15:48:51,818 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2023-05-07 15:48:51,818 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.0
+2023-05-07 15:48:51,818 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WL 1.0.0
+2023-05-07 15:48:51,818 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 4.1.0
+2023-05-07 15:48:51,818 [INFO] ThirdParty:999 - CMSIS Pack Vendor :portGmbH I-Cube-SoM-uGOAL 1.1.0
+2023-05-07 15:48:51,818 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALS 1.0.1
+2023-05-07 15:48:51,818 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.5.0
+2023-05-07 15:48:51,818 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics ThreadX 1.0.0
+2023-05-07 15:48:51,818 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WB 1.1.0
+2023-05-07 15:48:51,818 [INFO] ThirdParty:999 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.3.1
+2023-05-07 15:48:51,818 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2023-05-07 15:48:51,818 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2023-05-07 15:48:51,818 [INFO] ThirdParty:999 - CMSIS Pack Vendor :WES I-CUBE-Cesium 1.3.0
+2023-05-07 15:48:51,818 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 2.0.0
+2023-05-07 15:48:51,818 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2023-05-07 15:48:51,818 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 4.0.0
+2023-05-07 15:48:51,818 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.3.0
+2023-05-07 15:48:51,818 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.2.0
+2023-05-07 15:48:51,818 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2023-05-07 15:48:51,818 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.0.0
+2023-05-07 15:48:51,818 [INFO] ThirdParty:815 - exiting critical section [change project]
+2023-05-07 15:48:51,881 [INFO] PinOutPanel:1477 - setPackage(No Configuration,No Configuration)
+2023-05-07 15:48:51,881 [INFO] PinOutPanel:1477 - setPackage(STM32F100RBTx,LQFP64)
+2023-05-07 15:48:51,918 [INFO] UtilMem:74 - Before build in PCC Used Memory: 505577680 Bytes (809500672)
+2023-05-07 15:48:51,968 [INFO] UtilMem:74 - After build in PCC Used Memory: 546472144 Bytes (809500672)
+2023-05-07 15:48:51,973 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 15:48:51,973 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 15:48:51,973 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 15:48:51,973 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 15:48:51,973 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 15:48:51,973 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 15:48:51,973 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 15:48:51,973 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 15:48:51,973 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 15:48:51,973 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 15:48:51,973 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 15:48:51,973 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 15:48:51,973 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 15:48:51,973 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 15:48:51,973 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 15:48:51,973 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 15:48:51,974 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 15:48:51,974 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 15:48:51,974 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 15:48:51,974 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 15:48:51,974 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 15:48:51,974 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 15:48:51,974 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 15:48:51,974 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 15:48:51,974 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 15:48:51,974 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 15:48:51,974 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 15:48:51,974 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 15:48:51,974 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 15:48:51,974 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 15:48:51,985 [INFO] CADModel:164 - CPN selected for project levelSTM32F100RBT6B
+2023-05-07 15:48:51,985 [INFO] CADModel:113 - Register for checkConnection events
+2023-05-07 15:48:52,020 [INFO] OpenFileManager:327 - Restore cursor
+2023-05-07 15:51:38,668 [ERROR] ConfigurationRetriever:140 - IOException on connection: citools.st.com
+2023-05-07 15:51:38,669 [ERROR] ConfigurationRetriever:140 - IOException on connection: citools.st.com
+2023-05-07 15:51:38,669 [ERROR] ConfigurationRetriever:140 - IOException on connection: citools.st.com
+2023-05-07 15:51:44,857 [ERROR] ConfigurationRetriever:140 - IOException on connection: citools.st.com
+2023-05-07 15:51:44,857 [ERROR] ConfigurationRetriever:140 - IOException on connection: citools.st.com
+2023-05-07 15:51:44,857 [ERROR] ConfigurationRetriever:140 - IOException on connection: citools.st.com
+2023-05-07 15:52:07,182 [ERROR] ConfigurationRetriever:140 - IOException on connection: citools.st.com
+2023-05-07 15:52:07,183 [ERROR] ConfigurationRetriever:140 - IOException on connection: citools.st.com
+2023-05-07 15:52:07,183 [ERROR] ConfigurationRetriever:140 - IOException on connection: citools.st.com
+2023-05-07 15:52:34,615 [ERROR] ConfigurationRetriever:140 - IOException on connection: citools.st.com
+2023-05-07 15:52:34,615 [ERROR] ConfigurationRetriever:140 - IOException on connection: citools.st.com
+2023-05-07 15:52:34,615 [ERROR] ConfigurationRetriever:140 - IOException on connection: citools.st.com
+2023-05-07 15:55:13,657 [INFO] MainUpdater:2800 - connection check result : 10
+2023-05-07 15:55:13,658 [INFO] MainUpdater:2800 - connection check result : 10
+2023-05-07 15:55:13,662 [INFO] MicroXplorer:451 - Change Database Path : 
+2023-05-07 15:55:13,663 [INFO] MicroXplorer:481 - Change Database Version : DB.6.0.70
+2023-05-07 15:55:13,667 [WARN] ThirdParty:845 - waiting for thirdparty lock release [close project]
+2023-05-07 15:55:13,667 [INFO] ThirdParty:847 - entering critical section [close project]
+2023-05-07 15:55:13,667 [INFO] ThirdParty:857 - exiting critical section [close project]
+2023-05-07 15:55:13,668 [INFO] PinOutPanel:1477 - setPackage(No Configuration,No Configuration)
+2023-05-07 15:55:13,668 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 308200432 Bytes (809500672)
+2023-05-07 15:55:13,669 [INFO] MicroXplorer:451 - Change Database Path : 
+2023-05-07 15:55:13,669 [INFO] MicroXplorer:481 - Change Database Version : DB.6.0.70
+2023-05-07 15:55:13,669 [INFO] OpenFileManager:307 - Change cursor
+2023-05-07 15:55:13,670 [INFO] Mcu:1925 - Initializing MCU STM32F100R(8-B)Tx STM32F100RBTx STM32F100RBT6B
+2023-05-07 15:55:13,802 [INFO] Context:654 - Trying to add GPIOservice into a context  which must be forbidden
+2023-05-07 15:55:13,869 [INFO] RtosManager:489 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2023-05-07 15:55:13,869 [INFO] RtosManager:489 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2023-05-07 15:55:13,869 [INFO] RtosManager:489 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2023-05-07 15:55:13,869 [INFO] RtosManager:489 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2023-05-07 15:55:13,869 [WARN] ModelIntegratedComponent:185 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2023-05-07 15:55:13,873 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:55:13,873 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:55:13,873 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:55:13,873 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:55:13,873 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:55:13,873 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:55:13,873 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:55:13,873 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:55:13,873 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:55:13,873 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:55:13,873 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:55:13,873 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:55:13,873 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:55:13,873 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:55:13,873 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:55:13,873 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:55:13,873 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:55:13,873 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:55:13,873 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:55:13,873 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:55:13,873 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:55:13,873 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:55:13,873 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:55:13,873 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:55:13,873 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:55:13,873 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:55:13,873 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:55:13,873 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:55:13,873 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:55:13,873 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:55:13,873 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:55:13,873 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:55:13,873 [WARN] ModelIntegratedComponent:64 - No mode defined for component null
+2023-05-07 15:55:13,903 [INFO] ThirdPartyModel:294 - Start build external matchings
+2023-05-07 15:55:14,056 [INFO] ThirdPartyModel:310 - End build external matchings
+2023-05-07 15:55:14,117 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 641239208 Bytes (809500672)
+2023-05-07 15:55:14,126 [WARN] ThirdParty:807 - waiting for thirdparty lock release [change project]
+2023-05-07 15:55:14,127 [INFO] ThirdParty:809 - entering critical section [change project]
+2023-05-07 15:55:14,127 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ISPU 1.1.0
+2023-05-07 15:55:14,127 [INFO] ThirdParty:999 - CMSIS Pack Vendor :RoweBots I-CUBE-UNISONRTOS 5.5.0-4
+2023-05-07 15:55:14,127 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 6.0.0
+2023-05-07 15:55:14,127 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2023-05-07 15:55:14,127 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.1.0
+2023-05-07 15:55:14,127 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics LIBJPEG 8.0.0
+2023-05-07 15:55:14,127 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SMBUS 2.1.0
+2023-05-07 15:55:14,127 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2023-05-07 15:55:14,127 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 8.0.0
+2023-05-07 15:55:14,127 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-FREERTOS 1.0.1
+2023-05-07 15:55:14,127 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.21.1
+2023-05-07 15:55:14,127 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.21.3
+2023-05-07 15:55:14,127 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.1.0
+2023-05-07 15:55:14,127 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2023-05-07 15:55:14,127 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.6.0
+2023-05-07 15:55:14,127 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENV1 4.3.0
+2023-05-07 15:55:14,127 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-FLIGHT1 5.0.0
+2023-05-07 15:55:14,127 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.3.0
+2023-05-07 15:55:14,127 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.4
+2023-05-07 15:55:14,127 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 1.1.0
+2023-05-07 15:55:14,127 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2023-05-07 15:55:14,127 [INFO] ThirdParty:999 - CMSIS Pack Vendor :emotas I-CUBE-CANOPEN 1.1.3
+2023-05-07 15:55:14,127 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G0 1.1.0
+2023-05-07 15:55:14,127 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 2.0.0
+2023-05-07 15:55:14,127 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 5.0.0
+2023-05-07 15:55:14,127 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 3.0.0
+2023-05-07 15:55:14,127 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics STM32_WPAN 1.0.0
+2023-05-07 15:55:14,127 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2023-05-07 15:55:14,128 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2023-05-07 15:55:14,128 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 2.0.0
+2023-05-07 15:55:14,128 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2023-05-07 15:55:14,128 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.1.0
+2023-05-07 15:55:14,128 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.3.0
+2023-05-07 15:55:14,128 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 1.1.1
+2023-05-07 15:55:14,128 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2023-05-07 15:55:14,128 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 3.0.0
+2023-05-07 15:55:14,128 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 1.0.0
+2023-05-07 15:55:14,128 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-SIGFOX1 3.2.0
+2023-05-07 15:55:14,128 [INFO] ThirdParty:999 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 5.5.4
+2023-05-07 15:55:14,128 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 1.0.0
+2023-05-07 15:55:14,128 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2023-05-07 15:55:14,128 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2023-05-07 15:55:14,128 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2023-05-07 15:55:14,128 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.0
+2023-05-07 15:55:14,128 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WL 1.0.0
+2023-05-07 15:55:14,128 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 4.1.0
+2023-05-07 15:55:14,128 [INFO] ThirdParty:999 - CMSIS Pack Vendor :portGmbH I-Cube-SoM-uGOAL 1.1.0
+2023-05-07 15:55:14,128 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALS 1.0.1
+2023-05-07 15:55:14,128 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.5.0
+2023-05-07 15:55:14,128 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics ThreadX 1.0.0
+2023-05-07 15:55:14,128 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WB 1.1.0
+2023-05-07 15:55:14,128 [INFO] ThirdParty:999 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.3.1
+2023-05-07 15:55:14,128 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2023-05-07 15:55:14,128 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2023-05-07 15:55:14,128 [INFO] ThirdParty:999 - CMSIS Pack Vendor :WES I-CUBE-Cesium 1.3.0
+2023-05-07 15:55:14,128 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 2.0.0
+2023-05-07 15:55:14,128 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2023-05-07 15:55:14,128 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 4.0.0
+2023-05-07 15:55:14,128 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.3.0
+2023-05-07 15:55:14,128 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.2.0
+2023-05-07 15:55:14,128 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2023-05-07 15:55:14,128 [INFO] ThirdParty:999 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.0.0
+2023-05-07 15:55:14,128 [INFO] ThirdParty:815 - exiting critical section [change project]
+2023-05-07 15:55:14,196 [INFO] PinOutPanel:1477 - setPackage(No Configuration,No Configuration)
+2023-05-07 15:55:14,196 [INFO] PinOutPanel:1477 - setPackage(STM32F100RBTx,LQFP64)
+2023-05-07 15:55:14,240 [INFO] UtilMem:74 - Before build in PCC Used Memory: 291185440 Bytes (809500672)
+2023-05-07 15:55:14,286 [INFO] UtilMem:74 - After build in PCC Used Memory: 332079904 Bytes (809500672)
+2023-05-07 15:55:14,290 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 15:55:14,291 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 15:55:14,291 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 15:55:14,291 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 15:55:14,291 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 15:55:14,291 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 15:55:14,291 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 15:55:14,291 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 15:55:14,291 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 15:55:14,291 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 15:55:14,291 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 15:55:14,291 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 15:55:14,291 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 15:55:14,291 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 15:55:14,291 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 15:55:14,291 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 15:55:14,291 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 15:55:14,291 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 15:55:14,291 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 15:55:14,291 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 15:55:14,291 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 15:55:14,291 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 15:55:14,291 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 15:55:14,292 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 15:55:14,292 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 15:55:14,292 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 15:55:14,292 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 15:55:14,292 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 15:55:14,292 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 15:55:14,292 [INFO] IPUIPlugin:79 - create IPUIPlugin
+2023-05-07 15:55:14,302 [INFO] CADModel:164 - CPN selected for project levelSTM32F100RBT6B
+2023-05-07 15:55:14,303 [INFO] CADModel:113 - Register for checkConnection events
+2023-05-07 15:55:14,338 [INFO] OpenFileManager:327 - Restore cursor
+2023-05-07 15:56:44,773 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 552971704 Bytes (809500672)
+2023-05-07 15:56:46,319 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 241500992 Bytes (809500672)
+2023-05-07 15:56:46,388 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-05-07 15:56:46,388 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F1
+2023-05-07 15:56:46,388 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F1
+2023-05-07 15:56:46,388 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-05-07 15:56:46,388 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-05-07 15:56:46,388 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-05-07 15:56:46,388 [INFO] CodeGenerator:692 - code generatio: config db path: /opt/st/stm32cubeide_1.11.2/plugins/com.st.stm32cube.common.mx_6.7.0.202301130839//db/
+2023-05-07 15:56:46,444 [INFO] CodeEngine:247 - oldGeneratedFile, /home/nikita/Documents/Quadrocopter/Quadrocopter/MXTmpFiles/license.tmp_save
+2023-05-07 15:56:46,473 [INFO] CodeEngine:271 - Generated code: /home/nikita/Documents/Quadrocopter/Quadrocopter/MXTmpFiles/license.tmp
+2023-05-07 15:56:46,480 [INFO] CodeEngine:247 - oldGeneratedFile, /home/nikita/Documents/Quadrocopter/Quadrocopter/MXTmpFiles/gpio.tmp_save
+2023-05-07 15:56:46,507 [INFO] CodeEngine:271 - Generated code: /home/nikita/Documents/Quadrocopter/Quadrocopter/MXTmpFiles/gpio.tmp
+2023-05-07 15:56:46,525 [INFO] CodeEngine:247 - oldGeneratedFile, /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Src/stm32f1xx_it.c_save
+2023-05-07 15:56:46,585 [INFO] CodeEngine:271 - Generated code: /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Src/stm32f1xx_it.c
+2023-05-07 15:56:46,585 [INFO] CodeEngine:247 - oldGeneratedFile, /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Inc/stm32f1xx_it.h_save
+2023-05-07 15:56:46,608 [INFO] CodeEngine:271 - Generated code: /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Inc/stm32f1xx_it.h
+2023-05-07 15:56:46,609 [INFO] CodeEngine:247 - oldGeneratedFile, /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Src/stm32f1xx_hal_msp.c_save
+2023-05-07 15:56:46,648 [INFO] CodeEngine:271 - Generated code: /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Src/stm32f1xx_hal_msp.c
+2023-05-07 15:56:46,648 [INFO] CodeEngine:247 - oldGeneratedFile, /home/nikita/Documents/Quadrocopter/Quadrocopter/MXTmpFiles/system.tmp_save
+2023-05-07 15:56:46,671 [INFO] CodeEngine:271 - Generated code: /home/nikita/Documents/Quadrocopter/Quadrocopter/MXTmpFiles/system.tmp
+2023-05-07 15:56:46,672 [INFO] CodeEngine:303 - oldGeneratedFile, /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Inc/stm32f1xx_hal_conf.h_save
+2023-05-07 15:56:46,704 [INFO] CodeEngine:327 - Generated code: /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Inc/stm32f1xx_hal_conf.h
+2023-05-07 15:56:46,708 [WARN] IPConfigManager:3414 - IP not found : TIM
+2023-05-07 15:56:46,708 [WARN] CodeGenerator:3583 - IP not found : null
+2023-05-07 15:56:46,708 [INFO] CodeEngine:247 - oldGeneratedFile, /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Inc/main.h_save
+2023-05-07 15:56:46,739 [INFO] CodeEngine:271 - Generated code: /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Inc/main.h
+2023-05-07 15:56:46,740 [INFO] CodeEngine:247 - oldGeneratedFile, /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Src/main.c_save
+2023-05-07 15:56:46,780 [INFO] CodeEngine:271 - Generated code: /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Src/main.c
+2023-05-07 15:56:46,961 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 7mS.
+2023-05-07 15:56:46,961 [INFO] ProjectBuilder:4183 - Project Generator version: 3.18.0-B7
+2023-05-07 15:56:47,046 [INFO] ConfigFileManager:1396 - The Die is : DIE420
+2023-05-07 15:56:47,047 [INFO] ApiDbMcu:505 - Load IP Config File for FATFS
+2023-05-07 15:56:47,048 [INFO] ApiDbMcu:505 - Load IP Config File for FREERTOS
+2023-05-07 15:56:47,417 [INFO] ProjectBuilder:4351 - Time for Generating toolchain IDE Files: 456mS.
+2023-05-07 15:56:47,418 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2023-05-07 15:56:47,418 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2023-05-07 15:59:20,761 [ERROR] ConfigurationRetriever:140 - IOException on connection: citools.st.com
+2023-05-07 15:59:20,762 [ERROR] ConfigurationRetriever:140 - IOException on connection: citools.st.com
+2023-05-07 15:59:20,762 [ERROR] ConfigurationRetriever:140 - IOException on connection: citools.st.com
+2023-05-07 15:59:26,027 [ERROR] ConfigurationRetriever:140 - IOException on connection: citools.st.com
+2023-05-07 15:59:26,028 [ERROR] ConfigurationRetriever:140 - IOException on connection: citools.st.com
+2023-05-07 15:59:26,028 [ERROR] ConfigurationRetriever:140 - IOException on connection: citools.st.com
+2023-05-07 16:00:08,721 [ERROR] ConfigurationRetriever:140 - IOException on connection: citools.st.com
+2023-05-07 16:00:08,721 [ERROR] ConfigurationRetriever:140 - IOException on connection: citools.st.com
+2023-05-07 16:00:08,721 [ERROR] ConfigurationRetriever:140 - IOException on connection: citools.st.com
+2023-05-07 16:01:48,076 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 422155000 Bytes (888143872)
+2023-05-07 16:01:50,048 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 694633840 Bytes (888143872)
+2023-05-07 16:01:50,103 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-05-07 16:01:50,103 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F1
+2023-05-07 16:01:50,103 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F1
+2023-05-07 16:01:50,103 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-05-07 16:01:50,103 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-05-07 16:01:50,103 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-05-07 16:01:50,103 [INFO] CodeGenerator:692 - code generatio: config db path: /opt/st/stm32cubeide_1.11.2/plugins/com.st.stm32cube.common.mx_6.7.0.202301130839//db/
+2023-05-07 16:01:50,174 [INFO] CodeEngine:247 - oldGeneratedFile, /home/nikita/Documents/Quadrocopter/Quadrocopter/MXTmpFiles/license.tmp_save
+2023-05-07 16:01:50,208 [INFO] CodeEngine:271 - Generated code: /home/nikita/Documents/Quadrocopter/Quadrocopter/MXTmpFiles/license.tmp
+2023-05-07 16:01:50,211 [INFO] CodeEngine:247 - oldGeneratedFile, /home/nikita/Documents/Quadrocopter/Quadrocopter/MXTmpFiles/gpio.tmp_save
+2023-05-07 16:01:50,237 [INFO] CodeEngine:271 - Generated code: /home/nikita/Documents/Quadrocopter/Quadrocopter/MXTmpFiles/gpio.tmp
+2023-05-07 16:01:50,254 [INFO] CodeEngine:247 - oldGeneratedFile, /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Src/stm32f1xx_it.c_save
+2023-05-07 16:01:50,284 [INFO] CodeEngine:271 - Generated code: /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Src/stm32f1xx_it.c
+2023-05-07 16:01:50,284 [INFO] CodeEngine:247 - oldGeneratedFile, /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Inc/stm32f1xx_it.h_save
+2023-05-07 16:01:50,306 [INFO] CodeEngine:271 - Generated code: /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Inc/stm32f1xx_it.h
+2023-05-07 16:01:50,307 [INFO] CodeEngine:247 - oldGeneratedFile, /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Src/stm32f1xx_hal_msp.c_save
+2023-05-07 16:01:50,340 [INFO] CodeEngine:271 - Generated code: /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Src/stm32f1xx_hal_msp.c
+2023-05-07 16:01:50,340 [INFO] CodeEngine:247 - oldGeneratedFile, /home/nikita/Documents/Quadrocopter/Quadrocopter/MXTmpFiles/system.tmp_save
+2023-05-07 16:01:50,362 [INFO] CodeEngine:271 - Generated code: /home/nikita/Documents/Quadrocopter/Quadrocopter/MXTmpFiles/system.tmp
+2023-05-07 16:01:50,363 [INFO] CodeEngine:303 - oldGeneratedFile, /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Inc/stm32f1xx_hal_conf.h_save
+2023-05-07 16:01:50,387 [INFO] CodeEngine:327 - Generated code: /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Inc/stm32f1xx_hal_conf.h
+2023-05-07 16:01:50,390 [WARN] IPConfigManager:3414 - IP not found : TIM
+2023-05-07 16:01:50,390 [WARN] CodeGenerator:3583 - IP not found : null
+2023-05-07 16:01:50,391 [INFO] CodeEngine:247 - oldGeneratedFile, /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Inc/main.h_save
+2023-05-07 16:01:50,416 [INFO] CodeEngine:271 - Generated code: /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Inc/main.h
+2023-05-07 16:01:50,416 [INFO] CodeEngine:247 - oldGeneratedFile, /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Src/main.c_save
+2023-05-07 16:01:50,456 [INFO] CodeEngine:271 - Generated code: /home/nikita/Documents/Quadrocopter/Quadrocopter/Core/Src/main.c
+2023-05-07 16:01:50,634 [INFO] ProjectBuilder:2919 - Time for Copy HAL[1] : 6mS.
+2023-05-07 16:01:50,635 [INFO] ProjectBuilder:4183 - Project Generator version: 3.18.0-B7
+2023-05-07 16:01:50,720 [INFO] ConfigFileManager:1396 - The Die is : DIE420
+2023-05-07 16:01:51,053 [INFO] ProjectBuilder:4351 - Time for Generating toolchain IDE Files: 418mS.
+2023-05-07 16:01:51,053 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2023-05-07 16:01:51,053 [INFO] ProjectBuilder:2790 - Time for Copy CMSIS : 0mS.
+2023-05-07 16:02:37,338 [ERROR] ConfigurationRetriever:140 - IOException on connection: citools.st.com
+2023-05-07 16:02:37,338 [ERROR] ConfigurationRetriever:140 - IOException on connection: citools.st.com
+2023-05-07 16:02:37,338 [ERROR] ConfigurationRetriever:140 - IOException on connection: citools.st.com
+2023-05-07 16:02:39,437 [ERROR] ConfigurationRetriever:140 - IOException on connection: citools.st.com
+2023-05-07 16:02:39,437 [ERROR] ConfigurationRetriever:140 - IOException on connection: citools.st.com
+2023-05-07 16:02:39,437 [ERROR] ConfigurationRetriever:140 - IOException on connection: citools.st.com
+2023-05-07 16:03:38,491 [ERROR] ConfigurationRetriever:140 - IOException on connection: citools.st.com
+2023-05-07 16:03:38,492 [ERROR] ConfigurationRetriever:140 - IOException on connection: citools.st.com
+2023-05-07 16:03:38,492 [ERROR] ConfigurationRetriever:140 - IOException on connection: citools.st.com
+2023-05-07 16:03:38,619 [ERROR] ConfigurationRetriever:140 - IOException on connection: citools.st.com
+2023-05-07 16:03:38,619 [ERROR] ConfigurationRetriever:140 - IOException on connection: citools.st.com
+2023-05-07 16:03:38,620 [ERROR] ConfigurationRetriever:140 - IOException on connection: citools.st.com
+2023-05-07 16:15:44,019 [ERROR] ConfigurationRetriever:140 - IOException on connection: citools.st.com
+2023-05-07 16:15:44,020 [ERROR] ConfigurationRetriever:140 - IOException on connection: citools.st.com
+2023-05-07 16:15:44,020 [ERROR] ConfigurationRetriever:140 - IOException on connection: citools.st.com
+2023-05-07 16:15:44,153 [INFO] JxBrowserEngine:114 - Initiate JxBrowser Engine with user profile folder
+2023-05-07 16:15:44,616 [INFO] WebAppUi:459 - Close the Jxbrowser engine manually
+2023-05-07 16:15:44,617 [INFO] WebAppUi:462 - Profiles folder deleted
+2023-05-07 16:15:44,712 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
